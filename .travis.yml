@@ -19,7 +19,7 @@ script:
   - cp robots.txt output
   - cp CNAME output
   - ghp-import output
-  - git pull https://github.com/if1live/umi.git gh-pages
+  - git pull --no-edit https://github.com/if1live/umi.git gh-pages
   - git push https://${GH_TOKEN}@github.com/if1live/umi.git gh-pages --quiet
 
 branches:
