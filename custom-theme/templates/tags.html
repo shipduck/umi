@@ -4,9 +4,9 @@
 
 {% block content %}
 <h2>Tags</h2>
-<ul>
+<p>
 {%- for tag, articles in tags|sort %}
-	<li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
+<span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }} <sup>{{ articles|count }}</sup></a></span>
 {% endfor %}
-</ul>
+</p>
 {% endblock %}
