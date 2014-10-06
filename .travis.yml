@@ -17,7 +17,10 @@ install:
 script:
   - mkdir -p ~/.ssh
   - cp key/* ~/.ssh
-  - make github
+  - git remote add base git@github.com:if1live/umi.git
+  - make publish
+  - ghp-import output
+  - git push base gh-pages
 
 branches:
   only:
