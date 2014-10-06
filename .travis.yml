@@ -21,12 +21,12 @@ install:
   - pip install -r requirements.txt -q
 
 script:
+  - git remote remove origin
+  - git remote add origin git@github.com:if1live/umi.git
   - make publish
   - cp content/extra/* output
   - ghp-import output
-  - git remote add deploy git@github.com:if1live/umi.git
-  - git checkout gh-pages
-  - git push deploy gh-pages
+  - git push origin gh-pages
 
 branches:
   only:
