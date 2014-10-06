@@ -24,11 +24,9 @@ script:
   - make publish
   - cp content/extra/* output
   - ghp-import output
-  - git remote add deploy git@github.com:if1live/umi.git
-  - git fetch deploy
   - git checkout gh-pages
-  - git pull --no-edit gh-pages
-  - git push deploy gh-pages
+  - git pull --no-edit origin gh-pages
+  - git push origin gh-pages
 
 branches:
   only:
