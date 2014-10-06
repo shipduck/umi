@@ -15,12 +15,9 @@ install:
   - pip install -r requirements.txt -q
 
 script:
-  - make publish
-  - cp robots.txt output
-  - cp CNAME output
-  - ghp-import output
-  - git pull --no-edit https://github.com/if1live/umi.git gh-pages
-  - git push https://${GH_TOKEN}@github.com/if1live/umi.git gh-pages --quiet
+  - mkdir -p ~/.ssh
+  - cp key/* ~/.ssh
+  - make github
 
 branches:
   only:
