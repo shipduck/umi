@@ -1,6 +1,11 @@
 {% extends "base.html" %}
 
+{% block title -%}
+{{ article.title }}
+{%- endblock title %}
+
 {% block head %}
+
 {{ super() }}
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@if1live" />
@@ -23,6 +28,24 @@
 	<dd><a href="{{ article.origin }}" target="_blank">origin</a></dd>
 	{% endif %}
 </dl>
+
+<h3>Tags</h3>
+<p>
+{%- for tag in article.tags %}
+<span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> </span>
+{% endfor %}
+</p>
+
+
+<p>
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+
+<p>
+<a href="/images/{{ article.image }}">
 <img src="/images/{{ article.image }}" />
+</a>
+</p>
 {% endblock %}
 </html>
