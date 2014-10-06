@@ -26,7 +26,6 @@ script:
   - ghp-import output
   - git remote add deploy git@github.com:if1live/umi.git
   - git checkout gh-pages
-  - git pull --no-edit origin gh-pages
   - git push deploy gh-pages
 
 branches:
