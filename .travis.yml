@@ -1,0 +1,29 @@
+language: python
+
+python:
+  - "2.7"
+
+env:
+  global:
+    - secure: "TnjrQzsv+fuG8f8fuTEPP71/REOLMt9RKhrJFAx+gM4N3gwqt/TayIBS5VXl/c4NmU2/OGUZv6vjHUUOGpztMr7BzfH6Th2nn8BTCwVWI5w8PHKlYKwOldQ/h9KuPrdyzaeGINlFKF8//3K057LdvumV6uYoiL6IdaWHLF7LUk0="
+
+before_install:
+  - git config --global user.email "libsora25@gmail.com"
+  - git config --global user.name "Travis"
+
+install:
+  - pip install -r requirements.txt -q
+
+script:
+  - make publish
+  - cp robots.txt output
+  - cp CNAME output
+  - ghp-import output
+  - git push origin gh-pages
+
+branches:
+  only:
+    - master
+
+notifications:
+  email: false
