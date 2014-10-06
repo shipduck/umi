@@ -10,10 +10,11 @@ env:
 before_install:
   - git config --global user.email "libsora25@gmail.com"
   - git config --global user.name "Travis"
-  - openssl aes-256-cbc -K $encrypted_d7a476c7b0de_key -iv $encrypted_d7a476c7b0de_iv -in id_rsa.enc -out id_rsa -d
-  - mkdir -p ~/.ssh
-  - cp id_rsa ~/.ssh
-  - chmod 600 ~/.ssh/id_rsa
+  - mkdir -p .travis
+  - openssl aes-256-cbc -K $encrypted_d7a476c7b0de_key -iv $encrypted_d7a476c7b0de_iv -in id_rsa.enc -out .travis/id_rsa -d
+  - chmod 600 .travis/id_rsa
+  - eval `ssh-agent -s`
+  - ssh-add .travis/id_rsa
 
 install:
   - pip install -r requirements.txt -q
