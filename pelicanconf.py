@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import os
 
 AUTHOR = u'unname'
 SITENAME = u'Project UMI'
-SITEURL = 'http://libsora.iptime.org/'
+#SITEURL = 'http://libsora.iptime.org/'
+SITEURL = '/'
 
 TIMEZONE = 'Asia/Seoul'
 
@@ -38,7 +40,17 @@ SOCIAL = (
     ('Another social link', '#'),
 )
 
+# 뻐킹 윈도 때문에 extra/CNAME하면 망한다
+EXTRA_PATH_METADATA = {
+    os.sep.join(['extra', 'CNAME']): {'path': 'CNAME'},
+    os.sep.join(['extra', 'robots.txt']): {'path': 'robots.txt'},
+}
+
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+TEMPLATE_PAGES = {
+    'search.html': 'search.html',
+}

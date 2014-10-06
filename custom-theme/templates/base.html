@@ -4,25 +4,36 @@
 	{% block head %}
 	<title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/theme/style.css">
 	{% endblock head %}
 </head>
 
-<body id="index" class="home">
-	<header id="banner" class="body">
-		<h1><a href="{{ SITEURL }}">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
-	</header><!-- /#banner -->
-	<nav id="menu"><ul>
-	{% for title, link in MENUITEMS %}
-		<li><a href="{{ link }}">{{ title }}</a></li>
-	{% endfor %}
-	</ul></nav><!-- /#menu -->
+<body>
+	<div class="container">
+	<h1><a href="{{ SITEURL }}">{{ SITENAME }} <strong>{{ SITESUBTITLE }}</strong></a></h1>
+	
+	<nav id="menu">
+	<ul>
+		<li><a href="{{ SITEURL }}/tags.html">Tags</a></li>
+		<li><a href="{{ SITEURL }}/search.html">Search</a></li>
+	</ul>
+	</nav><!-- /#menu -->
 	{% block content %}
 	{% endblock %}
-	<footer id="contentinfo" class="body">
-			<address id="about" class="vcard body">
-			Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
-			which takes great advantage of <a href="http://python.org">Python</a>.
-			</address><!-- /#about -->
-	</footer><!-- /#contentinfo -->
+	
+	<footer>
+	<p>
+	<a href="https://github.com/if1live/umi">Repository</a> |
+	<a href="https://github.com/if1live/umi/pulls">PR</a> |
+	<a href="http://twitter.com/if1live/">@if1live</a>
+	</p>
+	</footer>
+
+	</div>	<!-- container -->
 </body>
 </html>

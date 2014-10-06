@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+{% extends "base.html" %}
+
+{% block head %}
+{{ super() }}
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@if1live" />
 <meta name="twitter:title" content="{{ article.title }}"/>
@@ -9,12 +9,20 @@
 <meta name="twitter:image:src" content="{{ SITEURL }}/images/{{ article.image }}" />
 <meta name="twitter:url" content="{{ SITEURL }}/images/{{ article.image }}" />
 <meta name="twitter:domain" content="{{ SITEURL }}" />
-</head>
-<body>
-<h1>{{ article.title }}</h1>
-<p>
-<span>{{ SITEURL }}/{{ article.url }}</span>
-</p>
+{% endblock %}
+
+{% block content %}
+<h2>{{ article.title }}</h2>
+<dl>
+	<dt>URL</dt>
+	<dd>{{ SITEURL }}/{{ article.url }}</dd>
+	<dt>Image URL</dt>
+	<dd>{{ SITEURL }}/images/{{ article.image }}</dd>
+	{% if article.origin %}
+	<dt>Origin</dt>
+	<dd><a href="{{ article.origin }}" target="_blank">origin</a></dd>
+	{% endif %}
+</dl>
 <img src="/images/{{ article.image }}" />
-</body>
+{% endblock %}
 </html>
