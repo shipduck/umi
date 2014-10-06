@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'unname'
 SITENAME = u'Project UMI'
-SITEURL = ''
+SITEURL = 'http://libsora.iptime.org/'
 
 TIMEZONE = 'Asia/Seoul'
 

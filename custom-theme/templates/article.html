@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-	  <head>
-		    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		    <meta name="twitter:card" content="photo" />
-		    <meta name="twitter:site" content="@if1live" />
-		    <meta name="twitter:image:src" content="http://umi.libsora.so/images/{{ article.image }}" />
-		    <meta name="twitter:domain" content="http://umi.libsora.so" />
-	  </head>
-	  <body>
-		    <img src="/images/{{ article.image }}" />
-	  </body>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="twitter:card" content="photo" />
+<meta name="twitter:site" content="@if1live" />
+<meta name="twitter:title" content="{{ article.title }}"/>
+<meta name="twitter:image" content="{{ SITEURL }}/images/{{ article.image }}" />
+<meta name="twitter:image:src" content="{{ SITEURL }}/images/{{ article.image }}" />
+<meta name="twitter:url" content="{{ SITEURL }}/images/{{ article.image }}" />
+<meta name="twitter:domain" content="{{ SITEURL }}" />
+</head>
+<body>
+<img src="/images/{{ article.image }}" />
+</body>
 </html>
