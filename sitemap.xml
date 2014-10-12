@@ -5,21 +5,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://umi.libsora.so/index.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/archives.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tags.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -109,6 +109,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/posts/nyaruko-crime/</loc>
+<lastmod>2010-10-03T00:00:00-00:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/posts/pk-in-pc-room/</loc>
 <lastmod>2010-10-03T00:00:00-00:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -138,259 +145,273 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://umi.libsora.so/tag/amerikano.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/harddisk.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/micinnyeon.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/uung.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/gongbu.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/mangga.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/tingkeobel.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/janggiha.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/eongeongeongeong.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/upgrade.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/moyeyeo.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/maeg.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/hondon.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/guyeog.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/jeonggeulyibeobcig.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/geondam-age.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/teulryeosseo.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/otl.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/amel.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/murisu.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/gimhwabaeg.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/imac.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/ingan.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/gimbyeongman.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/yogsim.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/macbook.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/inomdeula.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/baji.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/silsu.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/tag/nyaruko.html</loc>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/sarangyiyojeong.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/imalnyeon.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/bagjinyeong.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/micinnom.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/hdd.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/gangyo.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/pagoe.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tag/pcbang.html</loc>
-<lastmod>2014-10-12T09:47:25-00:00</lastmod>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/tag/beomjoe.html</loc>
+<lastmod>2014-10-12T10:40:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
