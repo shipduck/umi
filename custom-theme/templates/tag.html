@@ -1,6 +1,12 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME }} - Tag{% endblock %}
+{% block title %}{{ tag }}{% endblock %}
+
+{% block head %}
+{{ super() }}
+<meta name="description" content="{{ tag }}">
+<meta name="keywords" content="{{ tag }}">
+{% endblock %}
 
 {% block content %}
 <h2>Tag : {{ tag }}</h2>
