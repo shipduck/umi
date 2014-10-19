@@ -6,7 +6,7 @@ import os
 AUTHOR = u'unname'
 SITENAME = u'Project UMI'
 #SITEURL = 'http://libsora.iptime.org/'
-SITEURL = '/'
+SITEURL = ''
 
 TIMEZONE = 'Asia/Seoul'
 
@@ -15,21 +15,29 @@ DEFAULT_DATE_FORMAT = '%Y/%m/%d'
 
 ARTICLE_URL = 'posts/{slug}/'
 ARTICLE_SAVE_AS = 'posts/{slug}/index.html'
-CATEGORY_URL = None
-CATEGORY_SAVE_AS = None
-CATEGORIES_URL = None
-CATEGORIES_SAVE_AS = None
-AUTHOR_URL = None
-AUTHOR_SAVE_AS = None
-AUTHORS_URL = None
-AUTHORS_SAVE_AS = None
+#CATEGORY_URL = None
+#CATEGORY_SAVE_AS = None
+#CATEGORIES_URL = None
+#AUTHOR_URL = None
+#AUTHOR_SAVE_AS = None
+#AUTHORS_URL = None
+#AUTHORS_SAVE_AS = None
 
 THEME = 'custom-theme'
 
 # Feed generation is usually not desired when developing
+FEED_ATOM = None
+FEED_RSS = None
 FEED_ALL_ATOM = None
+FEED_ALL_RSS = None
 CATEGORY_FEED_ATOM = None
+CATEGORY_FEED_RSS = None
+AUTHOR_FEED_ATOM = None
+AUTHOR_FEED_RSS = None
+TAG_FEED_ATOM = None
+TAG_FEED_RSS = None
 TRANSLATION_FEED_ATOM = None
+
 
 # Blogroll
 LINKS =  ()
@@ -55,7 +63,7 @@ TEMPLATE_PAGES = {
     'search.html': 'search.html',
 }
 
-PLUGIN_PATH = 'external/pelican-plugins'
+PLUGIN_PATHS = ['external/pelican-plugins']
 
 PLUGINS=[
     'sitemap',
