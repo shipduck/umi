@@ -69,6 +69,8 @@ PLUGINS=[
     'sitemap',
 ]
 
+STATIC_PATHS = []
+
 SITEMAP = {
     'format': 'xml',
     'priorities': {
