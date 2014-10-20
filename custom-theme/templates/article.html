@@ -13,9 +13,9 @@
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@if1live" />
 <meta name="twitter:title" content="{{ article.title }}"/>
-<meta name="twitter:image" content="{{ SITEURL }}/images/{{ article.image }}" />
-<meta name="twitter:image:src" content="{{ SITEURL }}/images/{{ article.image }}" />
-<meta name="twitter:url" content="{{ SITEURL }}/images/{{ article.image }}" />
+<meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
+<meta name="twitter:image:src" content="{{ SITEURL }}/{{ article.image_url }}" />
+<meta name="twitter:url" content="{{ SITEURL }}/{{ article.image_url }}" />
 <meta name="twitter:domain" content="{{ SITEURL }}" />
 {% endblock %}
 
@@ -25,7 +25,7 @@
 	<dt>URL</dt>
 	<dd>{{ SITEURL }}/{{ article.url }}</dd>
 	<dt>Image URL</dt>
-	<dd>{{ SITEURL }}/images/{{ article.image }}</dd>
+	<dd>{{ SITEURL }}/{{ article.image_url }}</dd>
 	{% if article.origin %}
 	<dt>Origin</dt>
 	<dd><a href="{{ article.origin }}" target="_blank">origin</a></dd>
@@ -63,9 +63,8 @@
 </p>
 
 <p>
-{{ article.category  }}
-<a href="/images/{{ article.image }}">
-<img src="/images/{{ article.image }}" />
+<a href="./{{ article.image }}">
+<img src="./{{ article.image }}" />
 </a>
 </p>
 {% endblock %}

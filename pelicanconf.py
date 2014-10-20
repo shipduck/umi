@@ -63,10 +63,11 @@ TEMPLATE_PAGES = {
     'search.html': 'search.html',
 }
 
-PLUGIN_PATHS = ['external/pelican-plugins']
+PLUGIN_PATHS = ['external/pelican-plugins', 'plugins']
 
 PLUGINS=[
     'sitemap',
+    'umi'
 ]
 
 STATIC_PATHS = []
