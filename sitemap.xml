@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://umi.libsora.so/index.html</loc>
-<lastmod>2014-10-20T02:29:43-00:00</lastmod>
+<lastmod>2014-10-20T02:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/archives.html</loc>
-<lastmod>2014-10-20T02:29:43-00:00</lastmod>
+<lastmod>2014-10-20T02:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/tags.html</loc>
-<lastmod>2014-10-20T02:29:43-00:00</lastmod>
+<lastmod>2014-10-20T02:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>http://umi.libsora.so/categories.html</loc>
-<lastmod>2014-10-20T02:29:43-00:00</lastmod>
+<lastmod>2014-10-20T02:40:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -47,6 +47,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://umi.libsora.so/posts/all-dead/</loc>
+<lastmod>2010-10-03T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/posts/artist-kim-not-ok-ok/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -102,6 +109,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/posts/extended-mind/</loc>
+<lastmod>2010-10-03T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/posts/forced/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -117,6 +131,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>http://umi.libsora.so/posts/i-want-tank/</loc>
+<lastmod>2010-10-03T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/posts/i-want-touch-your-boobs/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -228,6 +249,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/category/andwae-dwae.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/category/binilbaji.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -249,7 +277,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/category/extended-mind.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/category/gangyobadgo-issneun-geoda.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/category/gaseum-manjige-haejuseyo.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -417,7 +459,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/tag/weonsaundeu.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/tag/yoseuga.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/tag/gaseum.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -459,6 +515,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/tag/hyeongwan.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/tag/mangga.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -466,7 +529,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/tingkeobel.html</loc>
+<loc>http://umi.libsora.so/tag/xkcd.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -508,6 +571,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/tag/what-is-a-car.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/tag/hondon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -515,7 +585,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/weonsaundeu.html</loc>
+<loc>http://umi.libsora.so/tag/lain.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/tag/wikipedia.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -543,6 +620,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>http://umi.libsora.so/tag/andwae.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>http://umi.libsora.so/tag/peulraenb.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -550,7 +634,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/taengkeu.html</loc>
+<loc>http://umi.libsora.so/tag/tingkeobel.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://umi.libsora.so/tag/wikipidia.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -655,7 +746,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/lain.html</loc>
+<loc>http://umi.libsora.so/tag/taengkeu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -760,14 +851,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/hyeongwan.html</loc>
+<loc>http://umi.libsora.so/tag/bagjinyeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/bagjinyeong.html</loc>
+<loc>http://umi.libsora.so/tag/dwae.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
