@@ -2,7 +2,7 @@
 
 Pull Request를 통해서 갱신가능한 정적 짤방 저장소 http://umi.libsora.so/
 
-[![Build Status](https://travis-ci.org/if1live/umi.svg?branch=master)](https://travis-ci.org/if1live/umi)
+[![Build Status](https://travis-ci.org/shipduck/umi.svg?branch=master)](https://travis-ci.org/shipduck/umi)
 
 ## 짤방 추가 방법
 적절히 브렌치를 따고 아래의 작업을 수행한다. 
