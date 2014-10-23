@@ -13,9 +13,19 @@
 <meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@if1live" />
 <meta name="twitter:title" content="{{ article.title }}"/>
+
+{% if article.video %}
+<meta name="twitter:image" content="{{ SITEURL }}/{{ article.video_url }}" />
+<meta name="twitter:player" content="{{ SITEURL }}/{{ article.video_url }}" />
+<meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.video_url }}" />
+<meta name="twitter:url" content="{{ SITEURL }}/{{ article.video_url }}" />
+
+{% else %}
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
 <meta name="twitter:image:src" content="{{ SITEURL }}/{{ article.image_url }}" />
 <meta name="twitter:url" content="{{ SITEURL }}/{{ article.image_url }}" />
+{% endif %}
+
 <meta name="twitter:domain" content="{{ SITEURL }}" />
 {% endblock %}
 
