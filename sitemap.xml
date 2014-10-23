@@ -4,994 +4,994 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>http://umi.libsora.so/index.html</loc>
-<lastmod>2014-10-23T00:16:14-00:00</lastmod>
+<loc>https://shipduck.github.io/umi/index.html</loc>
+<lastmod>2014-10-23T00:41:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/archives.html</loc>
-<lastmod>2014-10-23T00:16:14-00:00</lastmod>
+<loc>https://shipduck.github.io/umi/archives.html</loc>
+<lastmod>2014-10-23T00:41:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tags.html</loc>
-<lastmod>2014-10-23T00:16:14-00:00</lastmod>
+<loc>https://shipduck.github.io/umi/tags.html</loc>
+<lastmod>2014-10-23T00:41:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/categories.html</loc>
-<lastmod>2014-10-23T00:16:14-00:00</lastmod>
+<loc>https://shipduck.github.io/umi/categories.html</loc>
+<lastmod>2014-10-23T00:41:27-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/amel-throws-irrational/</loc>
+<loc>https://shipduck.github.io/umi/posts/amel-throws-irrational/</loc>
 <lastmod>2010-10-07T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/no-hope-no-dream/</loc>
+<loc>https://shipduck.github.io/umi/posts/no-hope-no-dream/</loc>
 <lastmod>2010-10-07T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/all-dead/</loc>
+<loc>https://shipduck.github.io/umi/posts/all-dead/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/artist-kim-not-ok-ok/</loc>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-not-ok-ok/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/artist-kim-study-begin/</loc>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-study-begin/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/artist-kim-study-fial/</loc>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-study-fial/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/artist-kim-why-cs/</loc>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-why-cs/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/birthday/</loc>
+<loc>https://shipduck.github.io/umi/posts/birthday/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/chaos-destruction-manga/</loc>
+<loc>https://shipduck.github.io/umi/posts/chaos-destruction-manga/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/cry-cry-cry-cry/</loc>
+<loc>https://shipduck.github.io/umi/posts/cry-cry-cry-cry/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/der-untergang/</loc>
+<loc>https://shipduck.github.io/umi/posts/der-untergang/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/der-untergang-custom/</loc>
+<loc>https://shipduck.github.io/umi/posts/der-untergang-custom/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/do-not-make-surprise/</loc>
+<loc>https://shipduck.github.io/umi/posts/do-not-make-surprise/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/extended-mind/</loc>
+<loc>https://shipduck.github.io/umi/posts/extended-mind/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/forced/</loc>
+<loc>https://shipduck.github.io/umi/posts/forced/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/game-stone/</loc>
+<loc>https://shipduck.github.io/umi/posts/game-stone/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/human-greedy/</loc>
+<loc>https://shipduck.github.io/umi/posts/human-greedy/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/i-want-tank/</loc>
+<loc>https://shipduck.github.io/umi/posts/i-want-tank/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/i-want-touch-your-boobs/</loc>
+<loc>https://shipduck.github.io/umi/posts/i-want-touch-your-boobs/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/imac-is-so-portable-now/</loc>
+<loc>https://shipduck.github.io/umi/posts/imac-is-so-portable-now/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/macbook-hdd-upgrade-fail/</loc>
+<loc>https://shipduck.github.io/umi/posts/macbook-hdd-upgrade-fail/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/many-men-online-role-playing-as-girls/</loc>
+<loc>https://shipduck.github.io/umi/posts/many-men-online-role-playing-as-girls/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/mashiro-plan-b/</loc>
+<loc>https://shipduck.github.io/umi/posts/mashiro-plan-b/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/monster-hunter-meatspin/</loc>
+<loc>https://shipduck.github.io/umi/posts/monster-hunter-meatspin/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/nyaruko-crime/</loc>
+<loc>https://shipduck.github.io/umi/posts/nyaruko-crime/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/oculus-rift-lain/</loc>
+<loc>https://shipduck.github.io/umi/posts/oculus-rift-lain/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/onesound-you-are-normal/</loc>
+<loc>https://shipduck.github.io/umi/posts/onesound-you-are-normal/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/pk-in-pc-room/</loc>
+<loc>https://shipduck.github.io/umi/posts/pk-in-pc-room/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/postal-2-fuck-you/</loc>
+<loc>https://shipduck.github.io/umi/posts/postal-2-fuck-you/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/stop-crazy/</loc>
+<loc>https://shipduck.github.io/umi/posts/stop-crazy/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/this-area-crazy/</loc>
+<loc>https://shipduck.github.io/umi/posts/this-area-crazy/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/vinyl-pants/</loc>
+<loc>https://shipduck.github.io/umi/posts/vinyl-pants/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/posts/yosuga-close-door/</loc>
+<loc>https://shipduck.github.io/umi/posts/yosuga-close-door/</loc>
 <lastmod>2010-10-03T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/ameleun-murisureul-dweossda.html</loc>
+<loc>https://shipduck.github.io/umi/category/ameleun-murisureul-dweossda.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/andwae-dwae.html</loc>
+<loc>https://shipduck.github.io/umi/category/andwae-dwae.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/binilbaji.html</loc>
+<loc>https://shipduck.github.io/umi/category/binilbaji.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/da-jugge-saenggyeossda-inomdeula.html</loc>
+<loc>https://shipduck.github.io/umi/category/da-jugge-saenggyeossda-inomdeula.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/eongeongeongeong.html</loc>
+<loc>https://shipduck.github.io/umi/category/eongeongeongeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/extended-mind.html</loc>
+<loc>https://shipduck.github.io/umi/category/extended-mind.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/gangyobadgo-issneun-geoda.html</loc>
+<loc>https://shipduck.github.io/umi/category/gangyobadgo-issneun-geoda.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/gaseum-manjige-haejuseyo.html</loc>
+<loc>https://shipduck.github.io/umi/category/gaseum-manjige-haejuseyo.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/geimbyeol-dol-geuraepig.html</loc>
+<loc>https://shipduck.github.io/umi/category/geimbyeol-dol-geuraepig.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/goebelseu-seontaegyi-daega-sujeong.html</loc>
+<loc>https://shipduck.github.io/umi/category/goebelseu-seontaegyi-daega-sujeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/goebelseu-seontaegyi-daega-weonbon.html</loc>
+<loc>https://shipduck.github.io/umi/category/goebelseu-seontaegyi-daega-weonbon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/gomanhae-micinnomdeula.html</loc>
+<loc>https://shipduck.github.io/umi/category/gomanhae-micinnomdeula.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/hondon-pagoe-mangga.html</loc>
+<loc>https://shipduck.github.io/umi/category/hondon-pagoe-mangga.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/i-guyeogyi-micinnyeoneun-naya.html</loc>
+<loc>https://shipduck.github.io/umi/category/i-guyeogyi-micinnyeoneun-naya.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/i-want-tank.html</loc>
+<loc>https://shipduck.github.io/umi/category/i-want-tank.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/ijebuteon-jeongmal-gongbubbuniya.html</loc>
+<loc>https://shipduck.github.io/umi/category/ijebuteon-jeongmal-gongbubbuniya.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/ildan-gongbuneun-jeobneunda.html</loc>
+<loc>https://shipduck.github.io/umi/category/ildan-gongbuneun-jeobneunda.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/imac-is-so-portable-now.html</loc>
+<loc>https://shipduck.github.io/umi/category/imac-is-so-portable-now.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/inganyi-yogsimeun-ggeuti-eobsgo-gateun-silsureul-banboghanda.html</loc>
+<loc>https://shipduck.github.io/umi/category/inganyi-yogsimeun-ggeuti-eobsgo-gateun-silsureul-banboghanda.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/jeoldae-ibundeuleul-nolrage-hamyeon-an-dwae.html</loc>
+<loc>https://shipduck.github.io/umi/category/jeoldae-ibundeuleul-nolrage-hamyeon-an-dwae.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/jeongsangibnida.html</loc>
+<loc>https://shipduck.github.io/umi/category/jeongsangibnida.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/macbook-hdd-upgrade-fail.html</loc>
+<loc>https://shipduck.github.io/umi/category/macbook-hdd-upgrade-fail.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/many-men-online-role-playing-as-girls.html</loc>
+<loc>https://shipduck.github.io/umi/category/many-men-online-role-playing-as-girls.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/masiro-peulraenb.html</loc>
+<loc>https://shipduck.github.io/umi/category/masiro-peulraenb.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/monheon-miteuseupin.html</loc>
+<loc>https://shipduck.github.io/umi/category/monheon-miteuseupin.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/nyaruko-crime.html</loc>
+<loc>https://shipduck.github.io/umi/category/nyaruko-crime.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/okyulreoseu-rein.html</loc>
+<loc>https://shipduck.github.io/umi/category/okyulreoseu-rein.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/postal-2-fuck-you.html</loc>
+<loc>https://shipduck.github.io/umi/category/postal-2-fuck-you.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/saengil.html</loc>
+<loc>https://shipduck.github.io/umi/category/saengil.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/teulryeosseo-ije-ggumigo-hyimangigo-eobseo.html</loc>
+<loc>https://shipduck.github.io/umi/category/teulryeosseo-ije-ggumigo-hyimangigo-eobseo.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/tingkeobel-sarangyi-yojeong.html</loc>
+<loc>https://shipduck.github.io/umi/category/tingkeobel-sarangyi-yojeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/why-cs.html</loc>
+<loc>https://shipduck.github.io/umi/category/why-cs.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/category/yoseuga-hyeongwan-bogseon.html</loc>
+<loc>https://shipduck.github.io/umi/category/yoseuga-hyeongwan-bogseon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/amerikano.html</loc>
+<loc>https://shipduck.github.io/umi/tag/amerikano.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/weonsaundeu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/weonsaundeu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/yoseuga.html</loc>
+<loc>https://shipduck.github.io/umi/tag/yoseuga.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gaseum.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gaseum.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/harddisk.html</loc>
+<loc>https://shipduck.github.io/umi/tag/harddisk.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/masiro.html</loc>
+<loc>https://shipduck.github.io/umi/tag/masiro.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/seontaeg.html</loc>
+<loc>https://shipduck.github.io/umi/tag/seontaeg.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/imalnyeon.html</loc>
+<loc>https://shipduck.github.io/umi/tag/imalnyeon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/uung.html</loc>
+<loc>https://shipduck.github.io/umi/tag/uung.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/guyeog.html</loc>
+<loc>https://shipduck.github.io/umi/tag/guyeog.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gongbu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gongbu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/hyeongwan.html</loc>
+<loc>https://shipduck.github.io/umi/tag/hyeongwan.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/geuraepig.html</loc>
+<loc>https://shipduck.github.io/umi/tag/geuraepig.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/mangga.html</loc>
+<loc>https://shipduck.github.io/umi/tag/mangga.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/xkcd.html</loc>
+<loc>https://shipduck.github.io/umi/tag/xkcd.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/janggiha.html</loc>
+<loc>https://shipduck.github.io/umi/tag/janggiha.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/eongeongeongeong.html</loc>
+<loc>https://shipduck.github.io/umi/tag/eongeongeongeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/upgrade.html</loc>
+<loc>https://shipduck.github.io/umi/tag/upgrade.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/moyeyeo.html</loc>
+<loc>https://shipduck.github.io/umi/tag/moyeyeo.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/maeg.html</loc>
+<loc>https://shipduck.github.io/umi/tag/maeg.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/what-is-a-car.html</loc>
+<loc>https://shipduck.github.io/umi/tag/what-is-a-car.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/hondon.html</loc>
+<loc>https://shipduck.github.io/umi/tag/hondon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/lain.html</loc>
+<loc>https://shipduck.github.io/umi/tag/lain.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/wikipedia.html</loc>
+<loc>https://shipduck.github.io/umi/tag/wikipedia.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/micinnom.html</loc>
+<loc>https://shipduck.github.io/umi/tag/micinnom.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gyohoe.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gyohoe.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/meatspin.html</loc>
+<loc>https://shipduck.github.io/umi/tag/meatspin.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/andwae.html</loc>
+<loc>https://shipduck.github.io/umi/tag/andwae.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/peulraenb.html</loc>
+<loc>https://shipduck.github.io/umi/tag/peulraenb.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/tingkeobel.html</loc>
+<loc>https://shipduck.github.io/umi/tag/tingkeobel.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/wikipidia.html</loc>
+<loc>https://shipduck.github.io/umi/tag/wikipidia.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/jeongsang.html</loc>
+<loc>https://shipduck.github.io/umi/tag/jeongsang.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/saengil.html</loc>
+<loc>https://shipduck.github.io/umi/tag/saengil.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/jeonggeulyibeobcig.html</loc>
+<loc>https://shipduck.github.io/umi/tag/jeonggeulyibeobcig.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/baji.html</loc>
+<loc>https://shipduck.github.io/umi/tag/baji.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/geondam-age.html</loc>
+<loc>https://shipduck.github.io/umi/tag/geondam-age.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/teulryeosseo.html</loc>
+<loc>https://shipduck.github.io/umi/tag/teulryeosseo.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/otl.html</loc>
+<loc>https://shipduck.github.io/umi/tag/otl.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/amel.html</loc>
+<loc>https://shipduck.github.io/umi/tag/amel.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/murisu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/murisu.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/yeonswaesalinbeom.html</loc>
+<loc>https://shipduck.github.io/umi/tag/yeonswaesalinbeom.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gimhwabaeg.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gimhwabaeg.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/miteuseupin.html</loc>
+<loc>https://shipduck.github.io/umi/tag/miteuseupin.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/imac.html</loc>
+<loc>https://shipduck.github.io/umi/tag/imac.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/micinnyeon.html</loc>
+<loc>https://shipduck.github.io/umi/tag/micinnyeon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/goebelseu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/goebelseu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/taengkeu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/taengkeu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/monheon.html</loc>
+<loc>https://shipduck.github.io/umi/tag/monheon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gimbyeongman.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gimbyeongman.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/yogsim.html</loc>
+<loc>https://shipduck.github.io/umi/tag/yogsim.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/poseutal2.html</loc>
+<loc>https://shipduck.github.io/umi/tag/poseutal2.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/macbook.html</loc>
+<loc>https://shipduck.github.io/umi/tag/macbook.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/silsu.html</loc>
+<loc>https://shipduck.github.io/umi/tag/silsu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/ingan.html</loc>
+<loc>https://shipduck.github.io/umi/tag/ingan.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/mun.html</loc>
+<loc>https://shipduck.github.io/umi/tag/mun.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/tank.html</loc>
+<loc>https://shipduck.github.io/umi/tag/tank.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/inomdeula.html</loc>
+<loc>https://shipduck.github.io/umi/tag/inomdeula.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/dol.html</loc>
+<loc>https://shipduck.github.io/umi/tag/dol.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/oculus.html</loc>
+<loc>https://shipduck.github.io/umi/tag/oculus.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/sarangyiyojeong.html</loc>
+<loc>https://shipduck.github.io/umi/tag/sarangyiyojeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/nyaruko.html</loc>
+<loc>https://shipduck.github.io/umi/tag/nyaruko.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/bagjinyeong.html</loc>
+<loc>https://shipduck.github.io/umi/tag/bagjinyeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/dwae.html</loc>
+<loc>https://shipduck.github.io/umi/tag/dwae.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/keompyuteogonghaggwa.html</loc>
+<loc>https://shipduck.github.io/umi/tag/keompyuteogonghaggwa.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/hdd.html</loc>
+<loc>https://shipduck.github.io/umi/tag/hdd.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/gangyo.html</loc>
+<loc>https://shipduck.github.io/umi/tag/gangyo.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/mmorpg.html</loc>
+<loc>https://shipduck.github.io/umi/tag/mmorpg.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/pagoe.html</loc>
+<loc>https://shipduck.github.io/umi/tag/pagoe.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/jeonca.html</loc>
+<loc>https://shipduck.github.io/umi/tag/jeonca.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/pcbang.html</loc>
+<loc>https://shipduck.github.io/umi/tag/pcbang.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/tag/beomjoe.html</loc>
+<loc>https://shipduck.github.io/umi/tag/beomjoe.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>http://umi.libsora.so/author/unname.html</loc>
+<loc>https://shipduck.github.io/umi/author/unname.html</loc>
 <lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
