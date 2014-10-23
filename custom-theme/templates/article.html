@@ -10,17 +10,21 @@
 <meta name="description" content="{{ article.title }}">
 <meta name="keywords" content="{{ article.tags|list|join(',') }}">
 
-<meta name="twitter:card" content="photo" />
 <meta name="twitter:site" content="@if1live" />
 <meta name="twitter:title" content="{{ article.title }}"/>
 
 {% if article.video %}
-<meta name="twitter:image" content="{{ SITEURL }}/{{ article.video_url }}" />
-<meta name="twitter:player" content="{{ SITEURL }}/{{ article.video_url }}" />
+<meta name="twitter:card" content="player" />
+<meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
+<meta name="twitter:player" content="{{ SITEURL }}/{{ article.url }}" />
+<!-- TODO -->
+<meta name="twitter:player:width" content="100"/>
+<meta name="twitter:player:height" content="100"/>
 <meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.video_url }}" />
 <meta name="twitter:url" content="{{ SITEURL }}/{{ article.video_url }}" />
 
 {% else %}
+<meta name="twitter:card" content="photo" />
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
 <meta name="twitter:image:src" content="{{ SITEURL }}/{{ article.image_url }}" />
 <meta name="twitter:url" content="{{ SITEURL }}/{{ article.image_url }}" />
@@ -73,9 +77,20 @@
 </p>
 
 <p>
+
+
+{% if article.video %}
+<a href="{{ SITEURL }}/{{ article.video_url }}">
+<video width="320" height="240" controls>
+  <source src="{{ SITEURL }}/{{ article.video_url }}" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</a>
+{% else %}
 <a href="./{{ article.image }}">
 <img src="./{{ article.image }}" />
 </a>
+{% endif %}
 </p>
 {% endblock %}
 </html>
