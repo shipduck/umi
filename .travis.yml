@@ -16,6 +16,10 @@ before_install:
   - chmod 600 .travis/id_rsa
   - eval `ssh-agent -s`
   - ssh-add .travis/id_rsa
+  - sudo add-apt-repository ppa:mc3man/trusty-media -y
+  - sudo apt-get update
+  - sudo apt-get install ffmpeg
+
 
 install:
   - pip install -r requirements.txt -q
