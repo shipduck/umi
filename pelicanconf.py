@@ -5,8 +5,8 @@ import os
 
 AUTHOR = u'unname'
 SITENAME = u'Project UMI'
-#SITEURL = 'https://libsora.iptime.org/'
-SITEURL = ''
+SITEURL = 'http://libsora.iptime.org'
+#SITEURL = ''
 
 TIMEZONE = 'Asia/Seoul'
 

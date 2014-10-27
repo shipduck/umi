@@ -10,27 +10,13 @@
 <meta name="description" content="{{ article.title }}">
 <meta name="keywords" content="{{ article.tags|list|join(',') }}">
 
-<meta name="twitter:site" content="@if1live" />
-<meta name="twitter:title" content="{{ article.title }}"/>
 
-{% if article.video %}
-<meta name="twitter:card" content="player" />
-<meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
-<meta name="twitter:player" content="{{ SITEURL }}/{{ article.url }}" />
-<!-- TODO -->
-<meta name="twitter:player:width" content="100"/>
-<meta name="twitter:player:height" content="100"/>
-<meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.video_url }}" />
-<meta name="twitter:url" content="{{ SITEURL }}/{{ article.video_url }}" />
-
+{% if article.media_type == 'video' %}
+{{ macros.render_twitter_player_card_meta(article, SITEURL) }}
 {% else %}
-<meta name="twitter:card" content="photo" />
-<meta name="twitter:image" content="{{ SITEURL }}/{{ article.image_url }}" />
-<meta name="twitter:image:src" content="{{ SITEURL }}/{{ article.image_url }}" />
-<meta name="twitter:url" content="{{ SITEURL }}/{{ article.image_url }}" />
+{{ macros.render_twitter_photo_card_meta(article, SITEURL) }}
 {% endif %}
 
-<meta name="twitter:domain" content="{{ SITEURL }}" />
 {% endblock %}
 
 {% block content %}
@@ -38,8 +24,8 @@
 <dl>
 	<dt>URL</dt>
 	<dd>{{ SITEURL }}/{{ article.url }}</dd>
-	<dt>Image URL</dt>
-	<dd>{{ SITEURL }}/{{ article.image_url }}</dd>
+	<dt>Media URL</dt>
+	<dd>{{ SITEURL }}/{{ article.media_url }}</dd>
 	{% if article.origin %}
 	<dt>Origin</dt>
 	<dd><a href="{{ article.origin }}" target="_blank">origin</a></dd>
@@ -79,16 +65,16 @@
 <p>
 
 
-{% if article.video %}
-<a href="{{ SITEURL }}/{{ article.video_url }}">
-<video width="320" height="240" controls>
-  <source src="{{ SITEURL }}/{{ article.video_url }}" type="video/mp4">
+{% if article.media_type == 'video' %}
+<a href="{{ SITEURL }}/{{ article.media_url }}">
+<video width="{{ article.video_width }}" height="{{ article.video_height }}" controls>
+  <source src="{{ SITEURL }}/{{ article.media_url }}" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 </a>
 {% else %}
-<a href="./{{ article.image }}">
-<img src="./{{ article.image }}" />
+<a href="./{{ article.media }}">
+<img src="./{{ article.media }}" />
 </a>
 {% endif %}
 </p>

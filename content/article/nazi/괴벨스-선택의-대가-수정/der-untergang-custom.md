@@ -2,5 +2,5 @@
 tags: 괴벨스, 선택
 slug: der-untergang-custom
 title: 그들은 지금 그 댓가를 치르고 있는거야
-image: der_untergang-custom.jpg
+media: der_untergang-custom.jpg
 

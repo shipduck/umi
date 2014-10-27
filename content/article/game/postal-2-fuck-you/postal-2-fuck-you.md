@@ -2,4 +2,4 @@
 tags: 포스탈2, 교회
 slug: postal-2-fuck-you
 title: 포스탈2 교회
-image: postal-2-fuck-you.jpg
+media: postal-2-fuck-you.jpg
