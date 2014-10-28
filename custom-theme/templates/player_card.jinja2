@@ -13,9 +13,14 @@
 	{% endif %}
   </head>
   <body>
-	<video width="{{ article.video_width }}" height="{{ article.video_height }}" controls>
+	<video
+	   width="{{ article.video_width }}"
+	   height="{{ article.video_height }}"
+	   loop>
 	  <source src="{{ SITEURL }}/{{ article.media_url }}" type="video/mp4">
 		Your browser does not support the video tag.
 	</video>
+
+	<script src="{{ SITEURL }}/theme/common.js"></script>
   </body>
 </html>

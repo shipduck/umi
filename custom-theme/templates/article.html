@@ -47,6 +47,13 @@
 		{% endif %}
 	</dd>
 	{% endif %}
+
+  {% if article.media_type == 'video' %}
+  <dt>Player Card URL</dt>
+  <dd>
+    <a href="{{ SITEURL }}/{{ article.player_card_url }}">{{ SITEURL }}/{{ article.player_card_url }}</a>
+  </dd>
+  {% endif %}
 </dl>
 
 <h3>Tags</h3>
@@ -66,12 +73,10 @@
 
 
 {% if article.media_type == 'video' %}
-<a href="{{ SITEURL }}/{{ article.media_url }}">
-<video width="{{ article.video_width }}" height="{{ article.video_height }}" controls>
+<video width="{{ article.video_width }}" height="{{ article.video_height }}" loop>
   <source src="{{ SITEURL }}/{{ article.media_url }}" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-</a>
 {% else %}
 <a href="./{{ article.media }}">
 <img src="./{{ article.media }}" />
