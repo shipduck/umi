@@ -1,14 +1,17 @@
 {% macro render_twitter_player_card_meta(article, SITEURL) %}
 <meta name="twitter:card" content="player" />
 <meta name="twitter:title" content="{{ article.title }}"/>
+<meta name="twitter:description" content="{{ article.title }}"/>
 <meta name="twitter:site" content="@if1live" />
 
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.video_jpg_url }}" />
 <meta name="twitter:player" content="{{ SITEURL }}/{{ article.player_card_url }}" />
-<!-- TODO -->
+
 <meta name="twitter:player:width" content="{{ article.video_width }}"/>
 <meta name="twitter:player:height" content="{{ article.video_height }}"/>
+
 <meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.video_mp4_url }}" />
+<meta name="twitter:player:stream:content_type" content="video/mp4"/>
 {% endmacro %}
 
 
