@@ -5,29 +5,50 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/index.html</loc>
-<lastmod>2014-10-28T02:35:09-00:00</lastmod>
+<lastmod>2014-10-28T02:59:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/archives.html</loc>
-<lastmod>2014-10-28T02:35:09-00:00</lastmod>
+<lastmod>2014-10-28T02:59:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/tags.html</loc>
-<lastmod>2014-10-28T02:35:09-00:00</lastmod>
+<lastmod>2014-10-28T02:59:39-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/categories.html</loc>
-<lastmod>2014-10-28T02:35:09-00:00</lastmod>
+<lastmod>2014-10-28T02:59:39-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-aaa/</loc>
+<lastmod>2014-10-28T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-rpg/</loc>
+<lastmod>2014-10-28T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/artist-kim-skip-description/</loc>
+<lastmod>2014-10-28T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -305,6 +326,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/category/deo-isangyi-jasehan-seolmyeongeun-saengryaghanda.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/category/eongeongeongeong.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -363,6 +391,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/category/hondon-pagoe-mangga.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/category/hoongi.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -473,6 +508,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/category/rideumgwa-paweo-geurigo-jibjungryeog.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/category/saengil.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -522,8 +564,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/yoseuga.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/rideum.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -550,8 +592,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/seontaeg.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/saengryag.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -580,6 +622,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/gongbu.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/otl.html</loc>
+<lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -634,8 +683,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/demisoda.html</loc>
-<lastmod>2014-10-28T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/moyeyeo.html</loc>
+<lastmod>2010-10-07T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -657,6 +706,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/hondon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/hoongi.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -692,6 +748,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/meatspin.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/paweo.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -774,8 +837,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/otl.html</loc>
-<lastmod>2010-10-07T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/seolmyeong.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -803,14 +866,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/tag/gimhwabaeg.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/miteuseupin.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/jibjungryeog.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -823,7 +886,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/micinnyeon.html</loc>
+<loc>https://shipduck.github.io/umi/tag/miteuseupin.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -851,7 +914,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/gimbyeongman.html</loc>
+<loc>https://shipduck.github.io/umi/tag/seontaeg.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -872,8 +935,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/moyeyeo.html</loc>
-<lastmod>2010-10-07T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/demisoda.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -881,6 +944,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/geondam.html</loc>
 <lastmod>2014-10-27T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/yoseuga.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -943,6 +1013,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/tag/sarangyiyojeong.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/micinnyeon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -1027,6 +1104,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/tag/beomjoe.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/gimbyeongman.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
