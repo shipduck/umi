@@ -5,29 +5,36 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/index.html</loc>
-<lastmod>2014-10-27T15:18:31-00:00</lastmod>
+<lastmod>2014-10-28T02:35:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/archives.html</loc>
-<lastmod>2014-10-27T15:18:31-00:00</lastmod>
+<lastmod>2014-10-28T02:35:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/tags.html</loc>
-<lastmod>2014-10-27T15:18:31-00:00</lastmod>
+<lastmod>2014-10-28T02:35:09-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/categories.html</loc>
-<lastmod>2014-10-27T15:18:31-00:00</lastmod>
+<lastmod>2014-10-28T02:35:09-00:00</lastmod>
 <changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/demisoda-korean/</loc>
+<lastmod>2014-10-28T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
@@ -286,6 +293,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/category/da-jugge-saenggyeossda-inomdeula.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/category/demisoda-hangeulhwa.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -620,8 +634,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/moyeyeo.html</loc>
-<lastmod>2010-10-07T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/demisoda.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -705,6 +719,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/tag/wikipidia.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/nyaruko.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -851,6 +872,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/moyeyeo.html</loc>
+<lastmod>2010-10-07T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/geondam.html</loc>
 <lastmod>2014-10-27T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -921,8 +949,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/nyaruko.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/hangeul.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -951,6 +979,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/hdd.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/hangeulhwa.html</loc>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -999,7 +1034,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/author/unname.html</loc>
-<lastmod>2014-10-27T00:00:00+08:28</lastmod>
+<lastmod>2014-10-28T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
