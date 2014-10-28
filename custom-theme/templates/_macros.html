@@ -26,6 +26,7 @@
 {% macro render_video(article, SITEURL) %}
 <video width="{{ article.video_width }}"
 	   height="{{ article.video_height }}"
+	   poster="{{ SITEURL }}/{{ article.video_jpg_url }}"
 	   loop>
   <source src="{{ SITEURL }}/{{ article.video_mp4_url }}" type="video/mp4"></source>
   <source src="{{ SITEURL }}/{{ article.video_webm_url }}" type="video/webm"></source>
