@@ -12,6 +12,10 @@ video {
 	height: auto;
 }
 
+.body-player-card {
+	padding: 0;
+	margin: 0;
+}
 
 /* http://stackoverflow.com/questions/363425/how-to-wrap-long-lines-without-spaces-in-html */
 a {
