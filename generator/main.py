@@ -15,6 +15,8 @@ formatter = logging.Formatter('%(levelname)s - %(message)s')
 ch.setFormatter(formatter)
 logger.addHandler(ch)
 
+def to_even_number(val):
+    return (val / 2) * 2
 
 def is_animated_gif(filename):
     from PIL import Image
@@ -42,19 +44,58 @@ def get_video_size(filename):
         x = y = 0
     return x, y
 
-def convert_gif_to_mp4(gif_file):
-    mp4_file = gif_file.replace('.gif', '.mp4')
-    p = subprocess.call(['ffmpeg', '-f', 'gif', '-y', '-i', gif_file, mp4_file])
-    return mp4_file
+def video_size_to_even_size(w, h):
+    w = to_even_number(w)
+    h = to_even_number(h)
+    return '%dx%d' % (w, h)
 
-def create_thumbnail(mp4_file):
-    thumb_file = 'thumbnail.jpg'
-    p = subprocess.call(['ffmpeg', '-i', mp4_file,
+def convert_gif_to_webm(gif_file, w, h):
+    # ffmpeg -i input.gif -vcodec libvpx -f webm output.webm
+    output_file = gif_file.replace('.gif', '.webm')
+    p = subprocess.call(['ffmpeg',
+                         '-i', gif_file,
+                         '-vcodec', 'libvpx',
+                         '-f', 'webm',
+                         '-s', video_size_to_even_size(w, h),
+                         '-y',
+                         output_file])
+    return output_file
+
+def convert_gif_to_ogv(gif_file, w, h):
+    # ffmpeg -i input.gif -vcodec libtheora output.ogv
+    output_file = gif_file.replace('.gif', '.ogv')
+    p = subprocess.call(['ffmpeg',
+                         '-i', gif_file,
+                         '-vcodec', 'libtheora',
+                         '-s', video_size_to_even_size(w, h),
+                         '-y',
+                         output_file])
+    return output_file
+
+def convert_gif_to_mp4(gif_file, w, h):
+    # ffmpeg -i input.gif -vcodec libx264 -pix_fmt yuv420p -s 640x320 output.mp4
+    # if w, h is not even, not working!
+    output_file = gif_file.replace('.gif', '.mp4')
+    p = subprocess.call(['ffmpeg',
+                         '-i', gif_file,
+                         '-vcodec', 'libx264',
+                         '-pix_fmt', 'yuv420p',
+                         '-s', video_size_to_even_size(w, h),
+                         '-y',
+                         output_file])
+    return output_file
+
+def convert_gif_to_jpg(gif_file, w, h):
+    # ffmpeg -i input.gif -ss 00:01 -vframes 1 -f image2 output.jpg
+    output_file = gif_file.replace('.gif', '.jpg')
+    p = subprocess.call(['ffmpeg',
+                         '-i', gif_file,
                          '-ss', '00:00:01',
+                         '-vframes', '1',
                          '-f', 'image2',
                          '-y',
-                         '-vframes', '1', thumb_file])
-    return thumb_file
+                         output_file])
+    return output_file
 
 class ArticleMeta(object):
     def __init__(self, **kwargs):
@@ -136,7 +177,10 @@ class SkeletonWriter(object):
         media_type_tuple = ('media_type', meta.media_type)
         kv_list.append(media_type_tuple)
         if meta.media_type == 'video':
-            kv_list.append(('video_file', meta.video_file))
+            kv_list.append(('video_mp4', meta.video_mp4))
+            kv_list.append(('video_webm', meta.video_webm))
+            kv_list.append(('video_ogv', meta.video_ogv))
+            kv_list.append(('video_jpg', meta.video_jpg))
             kv_list.append(('video_width', meta.video_width))
             kv_list.append(('video_height', meta.video_height))
 
@@ -185,14 +229,20 @@ def handle_animated_gif(meta):
 
     curr_dir = os.getcwd()
     os.chdir(output_dir)
-    mp4_file = convert_gif_to_mp4(meta.media_filename)
-    create_thumbnail(mp4_file)
-    w, h = get_video_size(mp4_file)
 
-    meta.video_width = w
-    meta.video_height = h
+    w, h = get_video_size(meta.media_filename)
+    mp4_file = convert_gif_to_mp4(meta.media_filename, w, h)
+    webm_file = convert_gif_to_webm(meta.media_filename, w, h)
+    ogv_file = convert_gif_to_ogv(meta.media_filename, w, h)
+    thumb_file = convert_gif_to_jpg(meta.media_filename, w, h)
+
+    meta.video_width = to_even_number(w)
+    meta.video_height = to_even_number(h)
     meta.media_type = 'video'
-    meta.video_file = meta.media_file.replace('.gif', '.mp4')
+    meta.video_mp4 = meta.media_file.replace('.gif', '.mp4')
+    meta.video_ogv = meta.media_file.replace('.gif', '.ogv')
+    meta.video_webm = meta.media_file.replace('.gif', '.webm')
+    meta.video_jpg = meta.media_file.replace('.gif', '.jpg')
 
     os.chdir(curr_dir)
 

@@ -3,13 +3,12 @@
 <meta name="twitter:title" content="{{ article.title }}"/>
 <meta name="twitter:site" content="@if1live" />
 
-<meta name="twitter:image" content="{{ SITEURL }}/{{ article.player_thumbnail_url }}" />
+<meta name="twitter:image" content="{{ SITEURL }}/{{ article.video_jpg_url }}" />
 <meta name="twitter:player" content="{{ SITEURL }}/{{ article.player_card_url }}" />
 <!-- TODO -->
 <meta name="twitter:player:width" content="{{ article.video_width }}"/>
 <meta name="twitter:player:height" content="{{ article.video_height }}"/>
-<meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.media_url }}" />
-<meta name="twitter:url" content="{{ SITEURL }}/{{ article.media_url }}" />
+<meta name="twitter:player:stream" content="{{ SITEURL }}/{{ article.video_mp4_url }}" />
 {% endmacro %}
 
 
@@ -21,4 +20,16 @@
 <meta name="twitter:image" content="{{ SITEURL }}/{{ article.media_url }}" />
 <meta name="twitter:image:src" content="{{ SITEURL }}/{{ article.media_url }}" />
 <meta name="twitter:url" content="{{ SITEURL }}/{{ article.media_url }}" />
+{% endmacro %}
+
+
+{% macro render_video(article, SITEURL) %}
+<video width="{{ article.video_width }}"
+	   height="{{ article.video_height }}"
+	   loop>
+  <source src="{{ SITEURL }}/{{ article.video_mp4_url }}" type="video/mp4"></source>
+  <source src="{{ SITEURL }}/{{ article.video_webm_url }}" type="video/webm"></source>
+  <source src="{{ SITEURL }}/{{ article.video_ogv_url }}" type="video/ogv"></source>
+  Your browser does not support the video tag.
+</video>
 {% endmacro %}

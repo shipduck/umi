@@ -24,8 +24,12 @@
 <dl>
 	<dt>URL</dt>
 	<dd>{{ SITEURL }}/{{ article.url }}</dd>
+
+  {% if article.media_url %}
 	<dt>Media URL</dt>
 	<dd>{{ SITEURL }}/{{ article.media_url }}</dd>
+  {% endif %}
+
 	{% if article.origin %}
 	<dt>Origin</dt>
 	<dd><a href="{{ article.origin }}" target="_blank">origin</a></dd>
@@ -73,10 +77,7 @@
 
 
 {% if article.media_type == 'video' %}
-<video width="{{ article.video_width }}" height="{{ article.video_height }}" loop>
-  <source src="{{ SITEURL }}/{{ article.media_url }}" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+{{ macros.render_video(article, SITEURL) }}
 {% else %}
 <a href="./{{ article.media }}">
 <img src="./{{ article.media }}" />

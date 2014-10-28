@@ -56,23 +56,30 @@ def copy_simple_image(generator, content):
     dest_dir = create_dest_dir(generator, content)
     dst_path = os.path.join(dest_dir, content.image_file)
     shutil.copyfile(get_media_file(content, 'image_file'), dst_path)
-    set_media_url(content)
 
+    set_media_url(content, content.image_file, 'media_url')
 
 def copy_animated_gif(generator, content):
     if not is_animated_gif_article(content):
         return
     dest_dir = create_dest_dir(generator, content)
-
     source_dir = os.path.dirname(content.source_path)
-    thumb_file = os.path.join(source_dir, 'thumbnail.jpg')
-    thumb_dst = os.path.join(dest_dir, 'thumbnail.jpg')
-    shutil.copyfile(thumb_file, thumb_dst)
 
-    video_dst = os.path.join(dest_dir, content.video_file)
-    shutil.copyfile(get_media_file(content, 'video_file'), video_dst)
+    keylist = (
+        'video_mp4',
+        'video_webm',
+        'video_ogv',
+        'video_jpg',
+    )
+    for key in keylist:
+        src = os.path.join(source_dir, getattr(content, key))
+        dst = os.path.join(dest_dir, getattr(content, key))
+        shutil.copyfile(src, dst)
 
-    set_media_url(content)
+    set_media_url(content, content.video_mp4, 'video_mp4_url')
+    set_media_url(content, content.video_webm, 'video_webm_url')
+    set_media_url(content, content.video_ogv, 'video_ogv_url')
+    set_media_url(content, content.video_jpg, 'video_jpg_url')
 
     # create twitter player card
     from jinja2 import Environment, PackageLoader
@@ -92,19 +99,10 @@ def copy_animated_gif(generator, content):
     f.close()
 
 
-def set_media_url(content):
-    if content.media_type == 'video':
-        filename = content.video_file
-    elif content.media_type == 'image':
-        filename = content.image_file
-    else:
-        raise AssertionError('do not reach')
-
+def set_media_url(content, filename, url_key):
     media_url = os.path.dirname(content.save_as)
     media_url = media_url.replace('\\', '/')
     media_url = media_url + '/' + filename
-
-    url_key = 'media_url'
     setattr(content, url_key, media_url)
 
 def register():
