@@ -6,6 +6,13 @@ video {
 	max-width: 100%;
 }
 
+.video-fullsize {
+	min-width: 100%;
+	width: auto;
+	height: auto;
+}
+
+
 /* http://stackoverflow.com/questions/363425/how-to-wrap-long-lines-without-spaces-in-html */
 a {
 	white-space: pre;           /* CSS 2.0 */
