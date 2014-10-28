@@ -34,3 +34,14 @@
   Your browser does not support the video tag.
 </video>
 {% endmacro %}
+
+{% macro render_fullscreen_video(article, SITEURL) %}
+<video poster="{{ SITEURL }}/{{ article.video_jpg_url }}"
+	   class="video-fullsize"
+	   loop>
+  <source src="{{ SITEURL }}/{{ article.video_mp4_url }}" type="video/mp4"></source>
+  <source src="{{ SITEURL }}/{{ article.video_webm_url }}" type="video/webm"></source>
+  <source src="{{ SITEURL }}/{{ article.video_ogv_url }}" type="video/ogv"></source>
+  Your browser does not support the video tag.
+</video>
+{% endmacro %}

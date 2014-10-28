@@ -89,8 +89,8 @@ def copy_animated_gif(generator, content):
     player_card_url = content.url + 'player_card.html'
     content.player_card_url = player_card_url
 
-    from publishconf import SITEURL
-    html = template.render(article=content, SITEURL=SITEURL)
+    html = template.render(article=content,
+                           **generator.settings)
 
     dest_dir = get_dest_dir(generator, content)
     player_card_filename = os.path.join(dest_dir, 'player_card.html')
