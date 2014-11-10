@@ -8,12 +8,24 @@ import sys
 import logging
 import shutil
 import datetime
+import locale
 
 logger = logging.getLogger(__name__)
 ch = logging.StreamHandler()
 formatter = logging.Formatter('%(levelname)s - %(message)s')
 ch.setFormatter(formatter)
 logger.addHandler(ch)
+
+def to_unicode(val):
+    if type(val) == str:
+        try:
+            return val.decode('utf-8')
+        except UnicodeEncodeError:
+            return val.decode('euc-kr')
+    elif type(val) == unicode:
+        return val
+    else:
+        raise AssertionError('not valid type:%s' % (type(val),))
 
 def to_even_number(val):
     return (val / 2) * 2
@@ -109,6 +121,9 @@ class ArticleMeta(object):
         self.video_width = 0
         self.video_height = 0
 
+        self.media_file = to_unicode(self.media_file)
+        self.title = to_unicode(self.title)
+
     @property
     def media_filename(self):
         return os.path.split(self.media_file)[1]
@@ -123,27 +138,27 @@ def process_input():
         logger.error('%s is not exist' % media_file)
         raise SystemExit()
 
-    console_encoding = 'euc-kr'
+    os_encoding = locale.getpreferredencoding()
 
     title = ''
     while not title:
         title = raw_input('Input title:')
-        title = title.decode(console_encoding)
+        title = title.decode(os_encoding)
 
     slug = ''
     while not slug:
         slug = raw_input('Input slug:')
-        slug = slug.decode(console_encoding)
+        slug = slug.decode(os_encoding)
 
     raw_tag = ''
     while not raw_tag:
         raw_tag = raw_input('Input tags:')
-        raw_tag = raw_tag.decode(console_encoding)
+        raw_tag = raw_tag.decode(os_encoding)
     tag_list = [x.strip() for x in raw_tag.split(',')]
     tag_list = [x for x in tag_list if len(x) > 0]
 
     origin = raw_input('Input origin(allow empty):')
-    origin = origin.decode(console_encoding)
+    origin = origin.decode(os_encoding)
 
     return ArticleMeta(media_file=media_file,
                        title=title,

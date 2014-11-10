@@ -57,3 +57,14 @@ target/
 output
 
 cache/
+
+
+generator/*.jpg
+generator/*.jpeg
+generator/*.gif
+generator/*.png
+
+
+
+
+
