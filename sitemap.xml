@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://shipduck.github.io/umi/index.html</loc>
-<lastmod>2015-11-29T02:17:14-00:00</lastmod>
+<lastmod>2015-11-30T08:04:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/archives.html</loc>
-<lastmod>2015-11-29T02:17:14-00:00</lastmod>
+<lastmod>2015-11-30T08:04:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/tags.html</loc>
-<lastmod>2015-11-29T02:17:14-00:00</lastmod>
+<lastmod>2015-11-30T08:04:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://shipduck.github.io/umi/categories.html</loc>
-<lastmod>2015-11-29T02:17:14-00:00</lastmod>
+<lastmod>2015-11-30T08:04:30-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -230,6 +230,34 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/posts/forced/</loc>
 <lastmod>2014-10-27T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/forgive-it-easy/</loc>
+<lastmod>2010-11-30T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/hatarakeitara-make/</loc>
+<lastmod>2010-11-30T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/hentai-ren/</loc>
+<lastmod>2010-11-30T00:00:00+09:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/posts/pour-water/</loc>
+<lastmod>2010-11-30T00:00:00+09:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -501,6 +529,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/category/byeontae.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/category/cobol-on-wheelchair.html</loc>
 <lastmod>2014-12-18T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -676,6 +711,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/category/ilhamyeon-jineun-geos.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/category/imac-is-so-portable-now.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -753,6 +795,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/category/mul-gateungeol-ggieonjna.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/category/mul-naoneun-konsenteu.html</loc>
 <lastmod>2015-01-18T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -790,6 +839,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/category/okyulreoseu-rein.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/category/pogihamyeon-pyeonhae.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1005,6 +1061,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/keulraudia.html</loc>
+<lastmod>2014-11-10T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/bijueol-seutyudio.html</loc>
 <lastmod>2014-11-10T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -1089,8 +1152,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/konsenteu.html</loc>
+<lastmod>2015-01-18T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/daecul.html</loc>
 <lastmod>2015-01-18T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/seulraemdeongkeu.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1103,8 +1180,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/nyaruko.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/weolhyi.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1215,8 +1292,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/ggieonjna.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/rideum.html</loc>
 <lastmod>2014-10-28T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/pyeonhae.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1245,6 +1336,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/demisoda.html</loc>
 <lastmod>2014-10-28T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/byeontae.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1292,6 +1390,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/ren.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/lain.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -1299,8 +1404,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/konsenteu.html</loc>
-<lastmod>2015-01-18T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/mul.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1397,7 +1502,21 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/niteu.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/what-is-a-car.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/monheon.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -1441,6 +1560,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/naci.html</loc>
 <lastmod>2014-11-10T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/dwae.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1518,6 +1644,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>https://shipduck.github.io/umi/tag/yeoja-yeonyein.html</loc>
 <lastmod>2015-01-18T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/macbook.html</loc>
+<lastmod>2010-10-03T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1621,8 +1754,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/dwae.html</loc>
+<loc>https://shipduck.github.io/umi/tag/nyaruko.html</loc>
 <lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>https://shipduck.github.io/umi/tag/jineungeos.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1684,6 +1824,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>https://shipduck.github.io/umi/tag/il.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>https://shipduck.github.io/umi/tag/soseji.html</loc>
 <lastmod>2014-11-10T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -1698,13 +1845,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/silheo.html</loc>
-<lastmod>2014-11-10T00:00:00+08:28</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>https://shipduck.github.io/umi/tag/yeojahubae.html</loc>
 <lastmod>2015-06-27T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
@@ -1712,8 +1852,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/sireo.html</loc>
-<lastmod>2014-11-10T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/pogi.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1803,8 +1943,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/keulraudia.html</loc>
-<lastmod>2014-11-10T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/neombeoweon.html</loc>
+<lastmod>2010-11-30T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1817,8 +1957,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/monheon.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/sireo.html</loc>
+<lastmod>2014-11-10T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -1838,8 +1978,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>https://shipduck.github.io/umi/tag/macbook.html</loc>
-<lastmod>2010-10-03T00:00:00+08:28</lastmod>
+<loc>https://shipduck.github.io/umi/tag/silheo.html</loc>
+<lastmod>2014-11-10T00:00:00+08:28</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
