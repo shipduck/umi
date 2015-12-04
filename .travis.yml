@@ -1,0 +1,46 @@
+language: go
+
+python:
+  - tip
+
+env:
+  global:
+    - secure: "TnjrQzsv+fuG8f8fuTEPP71/REOLMt9RKhrJFAx+gM4N3gwqt/TayIBS5VXl/c4NmU2/OGUZv6vjHUUOGpztMr7BzfH6Th2nn8BTCwVWI5w8PHKlYKwOldQ/h9KuPrdyzaeGINlFKF8//3K057LdvumV6uYoiL6IdaWHLF7LUk0="
+
+sudo: false
+
+addons:
+  apt:
+    packages:
+      - python-virtualenv
+
+before_install:
+  - git config --global user.email "libsora25@gmail.com"
+  - git config --global user.name "travis-ci"
+  - git config push.default simple
+  - mkdir -p .travis
+  - openssl aes-256-cbc -K $encrypted_d7a476c7b0de_key -iv $encrypted_d7a476c7b0de_iv -in id_rsa.enc -out .travis/id_rsa -d
+  - chmod 600 .travis/id_rsa
+  - eval `ssh-agent -s`
+  - ssh-add .travis/id_rsa
+  - virtualenv .venv
+  - . ./.venv/bin/activate
+  - pip install ghp-import
+
+install:
+  - go get github.com/deckarep/golang-set
+  - go get github.com/rainycape/unidecode
+
+script:
+  - git remote remove origin
+  - git remote add origin git@github.com:if1live/umi.git
+  - git fetch origin
+  - go test -v
+  - go build -v
+  - go vet
+  - PUBLISH=1 ./umi
+  - ghp-import output
+  - git push origin gh-pages
+
+notifications:
+  email: false
