@@ -9,6 +9,11 @@ env:
 
 sudo: false
 
+addons:
+  apt:
+    packages:
+      - python-virtualenv
+
 before_install:
   - git config --global user.email "libsora25@gmail.com"
   - git config --global user.name "travis-ci"
@@ -18,7 +23,6 @@ before_install:
   - chmod 600 .travis/id_rsa
   - eval `ssh-agent -s`
   - ssh-add .travis/id_rsa
-  - sudo apt-get install -qq python-virtualenv
   - virtualenv .venv
   - . ./.venv/bin/activate
   - pip install ghp-import
