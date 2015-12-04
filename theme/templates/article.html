@@ -1,0 +1,62 @@
+<h2>{{.Article.Title}}</h2>
+<dl>
+  <dt>URL</dt>
+  <dd>{{.SITEURL}}/{{.Article.Url}}</dd>
+
+  <dt>Media URL</dt>
+  <dd>{{.SITEURL}}/{{.Article.MediaUrl}}</dd>
+
+  {{if .Article.Origin}}
+  <dt>Origin</dt>
+  <dd><a href="{{.Article.Origin}}" target="_blank">origin</a></dd>
+  {{end}}
+
+  {{if .Article.Reference}}
+  <dt>Reference</dt>
+  <dd><a href="{{.Article.Reference}}" target="_blank">reference</a></dd>
+  {{end}}
+
+  {{if eq .Article.MediaType "video"}}
+  <dt>Player Card URL</dt>
+  <dd>
+    <a href="{{.SITEURL}}/{{.Article.PlayerCardUrl}}">{{.SITEURL}}/{{.Article.PlayerCardUrl}}</a>
+  </dd>
+  {{end}}
+</dl>
+
+<h3>Tags</h3>
+<p>
+{{range $tag := .Article.Tags}}
+<span><a href="{{$.SITEURL}}/{{$tag.Url}}">{{$tag.Value}}</a> </span>
+{{end}}
+</p>
+
+<p>
+<a href="https://twitter.com/share" class="twitter-share-button">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</p>
+
+<p>
+  {{if eq .Article.MediaType "video"}}
+  <!-- render_video -->
+  <!--
+  Content greater than 10 seconds in length must not automatically play
+  10초이상되는 짤은 안올릴테니 autoplay추가해도 된다
+  -->
+
+  <video width="{{.Article.VideoWidth }}"
+    height="{{.Article.VideoHeight }}"
+    poster="{{.SITEURL}}/{{.Article.VideoJpgUrl}}"
+    loop autoplay>
+    <source src="{{.SITEURL}}/{{.Article.VideoMp4Url}}" type="video/mp4"></source>
+    <source src="{{.SITEURL}}/{{.Article.VideoWebmUrl}}" type="video/webm"></source>
+    <source src="{{.SITEURL}}/{{.Article.VideoOgvUrl}}" type="video/ogv"></source>
+    Your browser does not support the video tag.
+  </video>
+
+  {{else}}
+  <a href="./{{.Article.Media}}">
+    <img src="./{{.Article.Media}}" />
+  </a>
+  {{end}}
+</p>

@@ -1,0 +1,6 @@
+<h2>Tags</h2>
+<p>
+  {{range $tag := .Tags}}
+  <span><a href="{{$.SITEURL}}/{{$tag.Url}}">{{$tag.Value}}</a></span>
+  {{end}}
+</p>

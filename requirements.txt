@@ -1,4 +1,0 @@
-git+https://github.com/if1live/pelican.git@master
-markdown
-ghp-import==0.4.1
-Pillow==2.5.3

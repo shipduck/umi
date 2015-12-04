@@ -1,0 +1,10 @@
+<h1>Articles for {{.SITENAME}}</h1>
+<ul>
+  {{range $article := .Articles}}
+  <li>
+    <a href="{{$article.Url}}">
+      {{$article.Title}}
+    </a>
+  </li>
+  {{end}}
+</ul>

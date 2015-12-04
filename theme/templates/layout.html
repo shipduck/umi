@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>{{.Title}}</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="OehFvhZYv5FCPw_TNuuOHUREG53yZ7R0NC54s4K0NOc" />
+
+    {{if .Article}}
+    <meta name="desription" content="{{.Article.Title}}">
+    <meta name="keywords" content="{{.Article.Keywords}}">
+    {{end}}
+
+    {{if .Tag}}
+    <meta name="description" content="{{.Tag.Value}}">
+    <meta name="keywords" content="{{.Tag.Value}}">
+    {{end}}
+
+    {{if .Article}}
+    {{{partial:twitter_card}}}
+    {{end}}
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{.SITEURL}}/static/style.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <h1><a href="{{.SITEURL}}/">{{.SITENAME}}</a></h1>
+
+      <nav id="menu">
+        <ul>
+          <li><a href="{{.SITEURL}}/tags.html">Tags</a></li>
+          <li><a href="{{.SITEURL}}/search.html">Search</a></li>
+        </ul>
+      </nav><!-- /#menu -->
+
+      {{{content}}}
+
+      <footer>
+        <p>
+          <a href="https://github.com/if1live/umi">Repository</a> |
+          <a href="https://github.com/if1live/umi/pulls">PR</a> |
+          <a href="http://twitter.com/if1live/">@if1live</a>
+        </p>
+      </footer>
+
+      <script src="{{.SITEURL}}/static/common.js"></script>
+
+    </div><!-- container -->
+  </body>
+</html>

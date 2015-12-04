@@ -1,6 +1,6 @@
 # umi
 
-Pull Request를 통해서 갱신가능한 정적 짤방 저장소 http://umi.libsora.so/
+Pull Request를 통해서 갱신가능한 정적 짤방 저장소
 
 [![Build Status](https://travis-ci.org/shipduck/umi.svg?branch=master)](https://travis-ci.org/shipduck/umi)
 
@@ -15,4 +15,13 @@ Pull Request를 통해서 갱신가능한 정적 짤방 저장소 http://umi.lib
 짤방 파일을 ```content/images/```에 넣어둔다.
 다음과 같이 ```content/filename.md```을 만든다. 
 
+## prepare
 
+``` bash
+go get github.com/deckarep/golang-set
+go get github.com/rainycape/unidecode
+go test -v
+go build -v
+go vet
+./umi
+```
