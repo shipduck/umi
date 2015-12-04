@@ -1,0 +1,8 @@
+<h2>Tag : {{.Tag.Value}}</h2>
+<ul>
+  {{range $article := .ArticlesByTag .Tag}}
+  <li>
+    <a href="{{$.SITEURL}}/{{$article.Url}}">{{$article.Title}}</a>
+  </li>
+  {{end}}
+</ul>

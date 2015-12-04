@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title></title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+
+  {{{partial:twitter_card}}}
+
+  <link rel="stylesheet" href="{{.SITEURL}}/static/style.css">
+  </head>
+  <body class="body-player-card">
+    <div class="player-card">
+
+      <video poster="{{.SITEURL}}/{{.Article.VideoJpgUrl}}"
+        class="video-fullsize"
+        loop autoplay>
+        <source src="{{.SITEURL}}/{{.Article.VideoMp4Url}}" type="video/mp4"></source>
+        <source src="{{.SITEURL}}/{{.Article.VideoWebmUrl}}" type="video/webm"></source>
+        <source src="{{.SITEURL}}/{{.Article.VideoOgvUrl}}" type="video/ogv"></source>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <script src="{{.SITEURL}}/static/common.js"></script>
+  </body>
+</html>
