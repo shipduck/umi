@@ -1,12 +1,12 @@
 package main
 
 import (
-	"time"
+	"log"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
-	"sort"
-	"log"
+	"time"
 )
 
 type Article struct {
@@ -15,18 +15,18 @@ type Article struct {
 	Tags  []Tag
 	Title string
 
-	Origin string
+	Origin    string
 	Reference string
 
-	Media string
+	Media     string
 	MediaType string
 
 	// twitter video card
-	VideoMp4 string
-	VideoWebM string
-	VideoOgv string
-	VideoJpg string
-	VideoWidth int
+	VideoMp4    string
+	VideoWebM   string
+	VideoOgv    string
+	VideoJpg    string
+	VideoWidth  int
 	VideoHeight int
 
 	// where is article from?
@@ -58,7 +58,6 @@ func (a *Article) VideoOgvUrl() string {
 	return postsDir + a.Slug + "/" + a.VideoOgv
 }
 
-
 func (a *Article) Keywords() string {
 	tags := make([]string, len(a.Tags))
 	for i, tag := range a.Tags {
@@ -76,9 +75,8 @@ func (a *Article) HasTag(tag *Tag) bool {
 	return false
 }
 
-
 func SortArticles(articles []Article) {
-	byTitle := func (a1, a2 *Article) bool {
+	byTitle := func(a1, a2 *Article) bool {
 		return a1.Title < a2.Title
 	}
 	ps := &articleSorter{articles, byTitle}
@@ -87,8 +85,9 @@ func SortArticles(articles []Article) {
 
 type articleSorter struct {
 	articles []Article
-	by func(a1, a2 *Article) bool
+	by       func(a1, a2 *Article) bool
 }
+
 func (s *articleSorter) Len() int {
 	return len(s.articles)
 }

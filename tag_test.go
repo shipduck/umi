@@ -6,12 +6,12 @@ import (
 
 func TestSortTags(t *testing.T) {
 	cases := []struct {
-		tags []Tag
+		tags     []Tag
 		expected []Tag
 	}{
-		{ []Tag{}, []Tag{} },
-		{ []Tag{{"a"},{"b"}}, []Tag{{"a"},{"b"}} },
-		{ []Tag{{"b"},{"a"}}, []Tag{{"a"},{"b"}} },
+		{[]Tag{}, []Tag{}},
+		{[]Tag{{"a"}, {"b"}}, []Tag{{"a"}, {"b"}}},
+		{[]Tag{{"b"}, {"a"}}, []Tag{{"a"}, {"b"}}},
 	}
 	for _, c := range cases {
 		SortTags(c.tags)

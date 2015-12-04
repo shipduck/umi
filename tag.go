@@ -1,9 +1,9 @@
 package main
 
 import (
+	"github.com/rainycape/unidecode"
 	"sort"
 	"strings"
-	"github.com/rainycape/unidecode"
 )
 
 type Tag struct {
@@ -20,19 +20,19 @@ func (tag *Tag) Slug() string {
 }
 
 func SortTags(tags []Tag) {
-	byValue := func (t1, t2 *Tag) bool {
+	byValue := func(t1, t2 *Tag) bool {
 		return t1.Value < t2.Value
 	}
 	ps := &tagSorter{
 		tags: tags,
-		by: byValue,
+		by:   byValue,
 	}
 	sort.Sort(ps)
 }
 
 type tagSorter struct {
 	tags []Tag
-	by func(t1, t2 *Tag) bool
+	by   func(t1, t2 *Tag) bool
 }
 
 func (s *tagSorter) Len() int {

@@ -7,8 +7,8 @@ import (
 
 func TestSplitKeyValue(t *testing.T) {
 	cases := []struct {
-		in string
-		key string
+		in    string
+		key   string
 		value string
 	}{
 		{"key:value", "key", "value"},
@@ -31,7 +31,7 @@ func TestSplitKeyValue(t *testing.T) {
 
 func TestParseDate(t *testing.T) {
 	cases := []struct {
-		txt string
+		txt  string
 		time time.Time
 	}{
 		{"2010-12-09", time.Date(2010, time.Month(12), 9, 0, 0, 0, 0, time.UTC)},
@@ -55,9 +55,9 @@ media: why-cs.jpg
 `
 	actual := ParseArticleMarkdown(text)
 	expected := Article{
-		Date: ParseDate("2010-10-09"),
-		Slug: "artist-kim-why-cs",
-		Tags: []Tag{{"김화백"}, {"컴퓨터공학과"}, {"연쇄살인범"}},
+		Date:  ParseDate("2010-10-09"),
+		Slug:  "artist-kim-why-cs",
+		Tags:  []Tag{{"김화백"}, {"컴퓨터공학과"}, {"연쇄살인범"}},
 		Title: "이 땅의 현실 때문에 컴퓨터 공학과로 진학했지만",
 		Media: "why-cs.jpg",
 	}
@@ -92,7 +92,7 @@ func TestArticleHasTag(t *testing.T) {
 		Tags: []Tag{{"김화백"}, {"컴퓨터공학과"}, {"연쇄살인범"}},
 	}
 	cases := []struct {
-		tag *Tag
+		tag   *Tag
 		found bool
 	}{
 		{&Tag{"김화백"}, true},
@@ -114,7 +114,7 @@ func TestContextArticlesByTag(t *testing.T) {
 	}
 
 	cases := []struct {
-		tag *Tag
+		tag    *Tag
 		retval []Article
 	}{
 		{&Tag{"foo"}, []Article{article1}},

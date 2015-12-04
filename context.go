@@ -8,15 +8,15 @@ import (
 type Context struct {
 	// global env
 	SITENAME string
-	SITEURL string
+	SITEURL  string
 
 	// shared
 	Articles []Article
-	Tags []Tag
+	Tags     []Tag
 
 	// local
 	Article *Article
-	Tag *Tag
+	Tag     *Tag
 
 	Title string
 }

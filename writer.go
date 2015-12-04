@@ -18,17 +18,17 @@ type Writer struct {
 
 func (wr *Writer) PrepareDirectory() {
 	os.MkdirAll(outputDir, 0755)
-	os.MkdirAll(outputDir + postsDir, 0755)
-	os.MkdirAll(outputDir + tagsDir, 0755)
+	os.MkdirAll(outputDir+postsDir, 0755)
+	os.MkdirAll(outputDir+tagsDir, 0755)
 
 	// copy static
 	dstStaticDir := outputDir + staticDir
 	srcStaticDir := "theme/" + staticDir
-	os.MkdirAll(outputDir + staticDir, 0755)
+	os.MkdirAll(outputDir+staticDir, 0755)
 	files, _ := filepath.Glob(srcStaticDir + "*")
 	for _, file := range files {
 		_, filename := filepath.Split(file)
-		Copy(file, dstStaticDir + filename)
+		Copy(file, dstStaticDir+filename)
 	}
 
 	// copy extra
@@ -36,7 +36,7 @@ func (wr *Writer) PrepareDirectory() {
 	files, _ = filepath.Glob(srcExtraDir + "*")
 	for _, file := range files {
 		_, filename := filepath.Split(file)
-		Copy(file, outputDir + filename)
+		Copy(file, outputDir+filename)
 	}
 }
 
@@ -61,12 +61,13 @@ func (wr *Writer) Write(ctx *Context, gen *Generator) {
 	}
 
 	completeMap := make(map[string]bool)
+Loop:
 	for {
 		select {
-		case file:=<-startCh:
+		case file := <-startCh:
 			completeMap[file] = false
 
-		case file:=<-finishCh:
+		case file := <-finishCh:
 			completeMap[file] = true
 			//fmt.Printf("write %d %s\n", counter, file)
 
@@ -76,7 +77,7 @@ func (wr *Writer) Write(ctx *Context, gen *Generator) {
 			}
 			if allChecked {
 				//fmt.Println("Success")
-				return
+				break Loop
 			}
 		}
 	}
@@ -180,7 +181,7 @@ func (wr *Writer) WriteTag(ctx *Context, tag Tag, gen *Generator, startCh chan s
 	finishCh <- dst
 }
 
-func(wr *Writer) WriteHtmlFile(html string, filepath string) {
+func (wr *Writer) WriteHtmlFile(html string, filepath string) {
 	f, err := os.Create(filepath)
 	checkErr(err)
 	_, err = f.WriteString(html)

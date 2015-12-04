@@ -1,8 +1,8 @@
 package main
 
 import (
-	"html/template"
 	"bytes"
+	"html/template"
 	"strings"
 )
 
@@ -13,7 +13,9 @@ type Generator struct {
 func (gen *Generator) GenerateHtml(tpl *template.Template, ctx *Context) string {
 	var b bytes.Buffer
 	err := tpl.Execute(&b, ctx)
-	if err != nil { panic(err) }
+	if err != nil {
+		panic(err)
+	}
 
 	// http://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go
 	var buffer bytes.Buffer

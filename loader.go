@@ -1,12 +1,12 @@
 package main
 
 import (
+	"container/list"
+	"html/template"
 	"io/ioutil"
+	"path/filepath"
 	"reflect"
 	"strings"
-	"html/template"
-	"container/list"
-	"path/filepath"
 )
 
 func RemoveUTF8BOM(data []byte) string {
@@ -27,23 +27,23 @@ func checkErr(e error) {
 }
 
 type TemplateLoader struct {
-	rawLayout string
-	rawIndex string
-	rawSearch string
-	rawArticle string
-	rawArticles string
-	rawTag string
-	rawTags string
+	rawLayout     string
+	rawIndex      string
+	rawSearch     string
+	rawArticle    string
+	rawArticles   string
+	rawTag        string
+	rawTags       string
 	rawPlayerCard string
 
 	partialTwitterCard string
 
-	index *template.Template
-	search *template.Template
-	article *template.Template
-	articles *template.Template
-	tag *template.Template
-	tags *template.Template
+	index      *template.Template
+	search     *template.Template
+	article    *template.Template
+	articles   *template.Template
+	tag        *template.Template
+	tags       *template.Template
 	playerCard *template.Template
 }
 
@@ -71,7 +71,7 @@ func (loader *TemplateLoader) LoadAll() {
 	loader.rawPlayerCard = loader.loadFile("player_card.html")
 	loader.partialTwitterCard = loader.loadFile("partial_twitter_card.html")
 
-	createTemplate := func (name string, tpl string) *template.Template {
+	createTemplate := func(name string, tpl string) *template.Template {
 		funcMap := template.FuncMap{
 			"title": strings.Title,
 		}
@@ -126,7 +126,7 @@ func FindAllMarkdownFile_r(dirname string, filelist *list.List) {
 		if filepath.Ext(file) == ".md" {
 			filelist.PushBack(file)
 		}
-		FindAllMarkdownFile_r(file + "/*", filelist)
+		FindAllMarkdownFile_r(file+"/*", filelist)
 	}
 }
 
