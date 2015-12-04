@@ -18,6 +18,7 @@ before_install:
   - chmod 600 .travis/id_rsa
   - eval `ssh-agent -s`
   - ssh-add .travis/id_rsa
+  - apt-get install -qq python-virtualenv
   - virtualenv .venv
   - . ./.venv/bin/activate
   - pip install ghp-import
