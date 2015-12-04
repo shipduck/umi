@@ -38,7 +38,7 @@ script:
   - go test -v
   - go build -v
   - go vet
-  - ./umi
+  - PUBLISH=1 ./umi
   - ghp-import output
   - git push origin gh-pages
 

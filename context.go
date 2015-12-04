@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/deckarep/golang-set"
+	"os"
 )
 
 type Context struct {
@@ -21,8 +22,12 @@ type Context struct {
 }
 
 func (ctx *Context) Reset(articles []Article) {
-	//ctx.SITEURL = "https://shipduck.github.io/umi"
-	ctx.SITEURL = ""
+	if len(os.Getenv("PUBLISH")) > 0 {
+		ctx.SITEURL = "http://zzal.collapsed.me"
+	} else {
+		ctx.SITEURL = ""
+	}
+
 	ctx.SITENAME = "Project UMI"
 
 	ctx.Articles = articles
