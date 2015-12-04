@@ -15,16 +15,18 @@ func (gen *Generator) GenerateHtml(tpl *template.Template, ctx *Context) string 
 	err := tpl.Execute(&b, ctx)
 	if err != nil { panic(err) }
 
+	// http://stackoverflow.com/questions/1760757/how-to-efficiently-concatenate-strings-in-go
+	var buffer bytes.Buffer
 	lines := strings.Split(b.String(), "\n")
-	buf := ""
 	for _, line := range lines {
 		line = strings.Trim(line, " ")
 		if len(line) == 0 {
 			continue
 		}
-		buf += strings.Trim(line, " ") + "\n"
+		buffer.WriteString(line)
+		buffer.WriteString("\n")
 	}
-	return buf
+	return buffer.String()
 }
 
 func (gen *Generator) GenerateIndexHtml(ctx *Context) string {
