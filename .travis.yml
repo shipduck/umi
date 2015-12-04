@@ -18,6 +18,9 @@ before_install:
   - chmod 600 .travis/id_rsa
   - eval `ssh-agent -s`
   - ssh-add .travis/id_rsa
+  - virtualenv .venv
+  - . ./.venv/bin/activate
+  - pip install ghp-import
 
 install:
   - go get github.com/deckarep/golang-set
