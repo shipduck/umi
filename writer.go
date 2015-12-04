@@ -48,6 +48,7 @@ func (wr *Writer) Write(ctx *Context, gen *Generator) {
 	go wr.WriteArticles(ctx.Clone(), gen, startCh, finishCh)
 	go wr.WriteTags(ctx.Clone(), gen, startCh, finishCh)
 	go wr.WriteSearch(ctx.Clone(), gen, startCh, finishCh)
+	go wr.WriteArticlesJson(ctx.Clone(), gen, startCh, finishCh)
 
 	for _, article := range ctx.Articles {
 		cloneCtx := ctx.Clone()
@@ -107,6 +108,16 @@ func (wr *Writer) WriteArticles(ctx *Context, gen *Generator, startCh chan strin
 
 	html := gen.GenerateArticlesHtml(ctx)
 	wr.WriteHtmlFile(html, dst)
+
+	finishCh <- dst
+}
+
+func (wr *Writer) WriteArticlesJson(ctx *Context, gen *Generator, startCh chan string, finishCh chan string) {
+	dst := outputDir + "articles.json"
+	startCh <- dst
+
+	txt := gen.GenerateArticlesJson(ctx)
+	wr.WriteHtmlFile(txt, dst)
 
 	finishCh <- dst
 }
