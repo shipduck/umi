@@ -1,7 +1,7 @@
-language: python
+language: go
 
 python:
-  - "2.7"
+  - tip
 
 env:
   global:
@@ -20,20 +20,19 @@ before_install:
   - ssh-add .travis/id_rsa
 
 install:
-  - pip install -r requirements.txt -q
+  - go get github.com/deckarep/golang-set
+  - go get github.com/rainycape/unidecode
 
 script:
   - git remote remove origin
   - git remote add origin git@github.com:if1live/umi.git
   - git fetch origin
-  - make publish
-  - cp content/extra/* output
+  - go test -v
+  - go build -v
+  - go vet
+  - ./umi
   - ghp-import output
   - git push origin gh-pages
-
-branches:
-  only:
-    - master
 
 notifications:
   email: false
