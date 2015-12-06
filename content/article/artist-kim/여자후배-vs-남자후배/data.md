@@ -5,4 +5,3 @@ title: 여자후배 vs 남자후배
 media: female_junior_male_junior.jpg
 origin: 
 media_type: image
-image_file: female_junior_male_junior.jpg

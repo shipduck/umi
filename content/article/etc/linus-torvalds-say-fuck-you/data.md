@@ -5,4 +5,3 @@ title: linus torvalds say fuck you
 media: linus-fuck-you.png
 origin: 
 media_type: image
-image_file: linus-fuck-you.png

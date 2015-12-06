@@ -5,4 +5,3 @@ title: 두뇌풀가동
 media: brainfullgadong.jpg
 origin: 
 media_type: image
-image_file: brainfullgadong.jpg

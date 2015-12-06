@@ -5,4 +5,3 @@ title: git branch merge hell
 media: git-branch-merge-hell.jpg
 origin: 
 media_type: image
-image_file: git-branch-merge-hell.jpg

@@ -5,4 +5,3 @@ title: 2008년 와이고수 최고의 여신은
 media: mDJH9DnsJz1qfHZHc4wnbb.jpg
 origin: 
 media_type: image
-image_file: mDJH9DnsJz1qfHZHc4wnbb.jpg

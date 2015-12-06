@@ -5,4 +5,3 @@ title: 리듬과 파워! 그리고 집중력!!
 media: rpg.jpg
 origin: 
 media_type: image
-image_file: rpg.jpg

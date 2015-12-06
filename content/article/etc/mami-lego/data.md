@@ -5,4 +5,3 @@ title: 레고 마미
 media: mami_lego.jpg
 origin: http://knowyourmeme.com/memes/headless-mami
 media_type: image
-image_file: mami_lego.jpg

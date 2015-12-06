@@ -5,4 +5,3 @@ title: 히틀러 맥주
 media: bf604d8bed2c2178817e6981dabaf3e3.jpg
 origin: http://www.who-sucks.com/people/dining-with-hitler-in-asia-hitler-themed-bars-restaurants?dem_action=view&dem_poll_id=24
 media_type: image
-image_file: bf604d8bed2c2178817e6981dabaf3e3.jpg

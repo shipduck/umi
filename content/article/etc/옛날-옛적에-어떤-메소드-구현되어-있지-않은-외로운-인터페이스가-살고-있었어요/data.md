@@ -5,4 +5,3 @@ title: 옛날 옛적에 어떤 메소드 구현되어 있지 않은 외로운 �
 media: teach_java_to_bady.jpg
 origin: 
 media_type: image
-image_file: teach_java_to_bady.jpg

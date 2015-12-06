@@ -5,4 +5,3 @@ title: Russian Sausage VS Chinese knife
 media: demotivation.us_Russian-Sausage-VS-Chinese-knife_130183506174.jpg
 origin: 
 media_type: image
-image_file: demotivation.us_Russian-Sausage-VS-Chinese-knife_130183506174.jpg

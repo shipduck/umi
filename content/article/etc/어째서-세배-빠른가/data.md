@@ -5,4 +5,3 @@ title: 어째서 세배 빠른가
 media: char3_48d45ff0400a8.jpg
 origin: 
 media_type: image
-image_file: char3_48d45ff0400a8.jpg

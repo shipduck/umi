@@ -5,4 +5,3 @@ title: Net Worth
 media: B7HDV_VCEAEwdec.png
 origin: http://www.fatwallet.com/forums/finance/912321/
 media_type: image
-image_file: B7HDV_VCEAEwdec.png

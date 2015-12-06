@@ -5,4 +5,3 @@ title: 호옹이
 media: aaa.jpg
 origin: 
 media_type: image
-image_file: aaa.jpg

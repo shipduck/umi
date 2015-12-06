@@ -5,4 +5,3 @@ title: 지하철의 단점
 media: subway-h-picture-with-ipad.jpg
 origin: 
 media_type: image
-image_file: subway-h-picture-with-ipad.jpg

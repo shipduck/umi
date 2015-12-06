@@ -5,4 +5,3 @@ title: 10년 사이의 과자값 상승
 media: 55519978713s140186769239.jpg
 origin: 
 media_type: image
-image_file: 55519978713s140186769239.jpg
