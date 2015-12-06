@@ -62,28 +62,28 @@ media: why-cs.jpg
 		Media: "why-cs.jpg",
 	}
 	if actual.Date != expected.Date {
-		t.Errorf("ParseArticleMarkdown Date - expected %q, got %q", actual.Date, expected.Date)
+		t.Errorf("ParseArticleMarkdown Date - expected %q, got %q", expected.Date, actual.Date)
 	}
 	if actual.Slug != expected.Slug {
-		t.Errorf("ParseArticleMarkdown Slug - expected %q, got %q", actual.Slug, expected.Slug)
+		t.Errorf("ParseArticleMarkdown Slug - expected %q, got %q", expected.Slug, actual.Slug)
 	}
 	if actual.Tags == nil {
 		t.Errorf("ParseArticleMarkdown Tags - nil occur")
 	}
 	if len(actual.Tags) != len(expected.Tags) {
-		t.Errorf("ParseArticleMarkdown Tags - expected %q, got %q", actual.Tags, expected.Tags)
+		t.Errorf("ParseArticleMarkdown Tags - expected %q, got %q", expected.Tags, actual.Tags)
 	}
 	for i, actualVal := range actual.Tags {
 		expectedVal := expected.Tags[i]
 		if actualVal != expectedVal {
-			t.Errorf("ParseArticleMarkdown Tags - expected %q, got %q", actual.Tags, expected.Tags)
+			t.Errorf("ParseArticleMarkdown Tags - expected %q, got %q", expected.Tags, actual.Tags)
 		}
 	}
 	if actual.Title != expected.Title {
-		t.Errorf("ParseArticleMarkdown Title - expected %q, got %q", actual.Title, expected.Title)
+		t.Errorf("ParseArticleMarkdown Title - expected %q, got %q", expected.Title, actual.Title)
 	}
 	if actual.Media != expected.Media {
-		t.Errorf("ParseArticleMarkdown Media - expected %q, got %q", actual.Media, expected.Media)
+		t.Errorf("ParseArticleMarkdown Media - expected %q, got %q", expected.Media, actual.Media)
 	}
 }
 
