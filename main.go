@@ -1,10 +1,11 @@
 package main
 
 import (
-//"log"
+	"log"
 )
 
 func main() {
+	log.SetPrefix("umi: ")
 	articleChannel := make(chan Article)
 	filelist := FindAllMarkdownFile()
 	go LoadArticles(filelist, articleChannel)
