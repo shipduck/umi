@@ -2,8 +2,10 @@ package main
 
 import (
 	"container/list"
+	"fmt"
 	"html/template"
 	"io/ioutil"
+	"log"
 	"path/filepath"
 	"reflect"
 	"strings"
@@ -131,12 +133,13 @@ func FindAllMarkdownFile_r(dirname string, filelist *list.List) {
 }
 
 func LoadArticles(filelist *list.List, ch chan Article) {
+	prefix := log.Prefix()
+	defer log.SetPrefix(prefix)
 	for e := filelist.Front(); e != nil; e = e.Next() {
 		if file, ok := e.Value.(string); ok {
-			//log.Printf("Start: %s\n", file)
+			log.SetPrefix(fmt.Sprintf("%s[%s] ", prefix, file))
 			article := LoadArticleMarkdown(file)
 			ch <- article
-			//log.Printf("Finish: %s\n", file)
 		}
 	}
 	close(ch)
