@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"reflect"
 	"regexp"
 	"sort"
 	"strconv"
@@ -10,27 +11,41 @@ import (
 )
 
 type Article struct {
-	Date  time.Time
-	Slug  string
-	Tags  []Tag
-	Title string
+	Date  time.Time `key:"date"`
+	Slug  string    `key:"slug"`
+	Tags  []Tag     `key:"tags"`
+	Title string    `key:"title"`
 
-	Origin    string
-	Reference string
+	Origin    string `key:"origin"`
+	Reference string `key:"ref"`
 
-	Media     string
-	MediaType string
+	Media     string `key:"media"`
+	MediaType string `key:"media_type"`
 
 	// twitter video card
-	VideoMp4    string
-	VideoWebM   string
-	VideoOgv    string
-	VideoJpg    string
-	VideoWidth  int
-	VideoHeight int
+	VideoMp4    string `key:"video_mp4"`
+	VideoWebM   string `key:"video_webm"`
+	VideoOgv    string `key:"video_ogv"`
+	VideoJpg    string `key:"video_jpg"`
+	VideoWidth  int    `key:"video_width"`
+	VideoHeight int    `key:"video_height"`
 
 	// where is article from?
-	Filepath string
+	Filepath string `key:-`
+}
+
+var fieldsMap map[string]reflect.StructField = map[string]reflect.StructField{}
+
+func init() {
+	t := reflect.TypeOf(Article{})
+	for i := 0; i < t.NumField(); i++ {
+		f := t.Field(i)
+		tag := f.Tag
+		key := tag.Get("key")
+		if key != "" {
+			fieldsMap[key] = f
+		}
+	}
 }
 
 func (a *Article) Url() string {
@@ -127,55 +142,42 @@ func ParseArticleMarkdown(text string) Article {
 	article := new(Article)
 	article.MediaType = "image"
 
+	val := reflect.Indirect(reflect.ValueOf(article))
+
 	lines := strings.Split(text, "\n")
 	for _, line := range lines {
-		line = strings.Trim(line, " ")
+		line = strings.TrimSpace(line)
 		if len(line) == 0 {
 			continue
 		}
 
 		k, v := SplitKeyValue(line)
-		k = strings.Trim(k, " ")
-		v = strings.Trim(v, " ")
-		switch k {
-		case "date":
-			article.Date = ParseDate(v)
-		case "tags":
-			tags := strings.Split(v, ",")
-			article.Tags = make([]Tag, len(tags))
-			for i, tag := range tags {
-				article.Tags[i] = Tag{strings.Trim(tag, " ")}
+		k = strings.TrimSpace(k)
+		v = strings.TrimSpace(v)
+
+		if field, exist := fieldsMap[k]; exist {
+			val_field := val.FieldByIndex(field.Index)
+			switch val_field.Type().Kind() {
+			case reflect.Struct:
+				val_field.Set(reflect.ValueOf(ParseDate(v)))
+			case reflect.Slice:
+				l := val_field.Interface().([]Tag)
+				tags := strings.Split(v, ",")
+				for _, tag := range tags {
+					l = append(l, Tag{strings.TrimSpace(tag)})
+				}
+				val_field.Set(reflect.ValueOf(l))
+			case reflect.Int:
+				i, _ := strconv.Atoi(v)
+				val_field.SetInt(int64(i))
+			case reflect.String:
+				val_field.SetString(v)
 			}
-		case "slug":
-			article.Slug = v
-		case "title":
-			article.Title = v
-		case "media":
-			article.Media = v
-		case "image_file":
-			article.Media = v
-		case "origin":
-			article.Origin = v
-		case "ref":
-			article.Reference = v
-		case "media_type":
-			article.MediaType = v
-		case "video_mp4":
-			article.VideoMp4 = v
-		case "video_webm":
-			article.VideoWebM = v
-		case "video_ogv":
-			article.VideoOgv = v
-		case "video_jpg":
-			article.VideoJpg = v
-		case "video_width":
-			article.VideoWidth, _ = strconv.Atoi(v)
-		case "video_height":
-			article.VideoHeight, _ = strconv.Atoi(v)
-		default:
+		} else {
 			log.Fatalf("Unknown key, value: %s, %s", k, v)
 		}
 	}
+
 	return *article
 }
 
@@ -183,7 +185,7 @@ var keyValueRe = regexp.MustCompile(`^([^:]+):(.*)$`)
 
 func SplitKeyValue(line string) (key, value string) {
 	m := keyValueRe.FindStringSubmatch(line)
-	key = strings.Trim(m[1], " ")
-	value = strings.Trim(m[2], " ")
+	key = strings.TrimSpace(m[1])
+	value = strings.TrimSpace(m[2])
 	return
 }
