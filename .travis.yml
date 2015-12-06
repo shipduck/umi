@@ -15,6 +15,7 @@ addons:
       - python-virtualenv
 
 before_install:
+  - if [ $TRAVIS_BRANCH = "master" ]; then
   - git config --global user.email "libsora25@gmail.com"
   - git config --global user.name "travis-ci"
   - git config push.default simple
@@ -26,21 +27,24 @@ before_install:
   - virtualenv .venv
   - . ./.venv/bin/activate
   - pip install ghp-import
+  - fi
 
 install:
   - go get github.com/deckarep/golang-set
   - go get github.com/rainycape/unidecode
 
 script:
-  - git remote remove origin
-  - git remote add origin git@github.com:if1live/umi.git
-  - git fetch origin
   - go test -v
   - go build -v
   - go vet
   - PUBLISH=1 ./umi
+  - if [ $TRAVIS_BRANCH = "master" ]; then
+  - git remote remove origin
+  - git remote add origin git@github.com:if1live/umi.git
+  - git fetch origin
   - ghp-import output
   - git push origin gh-pages
+  - fi
 
 notifications:
   email: false
