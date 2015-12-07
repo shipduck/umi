@@ -3,6 +3,7 @@
 Pull Request를 통해서 갱신가능한 정적 짤방 저장소
 
 [![Build Status](https://travis-ci.org/shipduck/umi.svg?branch=master)](https://travis-ci.org/shipduck/umi)
+[![Coverage Status](https://coveralls.io/repos/shipduck/umi/badge.svg?branch=master&service=github)](https://coveralls.io/github/shipduck/umi?branch=master)
 
 ## 짤방 추가 방법
 1. 짤방 파일을 ```generator/```로 복사한다.
