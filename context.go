@@ -23,7 +23,7 @@ type Context struct {
 
 func (ctx *Context) Reset(articles []Article) {
 	if len(os.Getenv("PUBLISH")) > 0 {
-		ctx.SITEURL = "http://zzal.collapsed.me"
+		ctx.SITEURL = "http://shipduck.github.io/umi"
 	} else {
 		ctx.SITEURL = ""
 	}
